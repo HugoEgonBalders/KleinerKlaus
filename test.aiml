@@ -319,8 +319,79 @@ Achtest du sehr darauf, ob Regeln eingehalten werden?
 </category> 
 
 <topic name = "F6">
+  
   <category>
-  <pattern> * SEHR *</pattern>
+  <pattern>* JA</pattern>
+  <template><srai>JA</srai></template>
+  </category>
+
+  <category>
+  <pattern>* JA *</pattern>
+  <template><srai>JA</srai></template>
+  </category>
+  
+  <category>
+  <pattern>JA *</pattern>
+  <template><srai>JA</srai></template>
+  </category>  
+
+  <category>
+  <pattern>* SCHON</pattern>
+  <template><srai>JA</srai></template>
+  </category>
+  
+  <category>
+  <pattern>* SCHON *</pattern>
+  <template><srai>JA</srai></template>
+  </category>
+
+  <category>
+  <pattern>SCHON *</pattern>
+  <template><srai>JA</srai></template>
+  </category>  
+
+  <category>
+  <pattern>* VIEL</pattern>
+  <template><srai>JA</srai></template>
+  </category>  
+  
+  <category>
+  <pattern>* VIEL *</pattern>
+  <template><srai>JA</srai></template>
+  </category>
+  
+  <category>
+  <pattern>VIEL *</pattern>
+  <template><srai>JA</srai></template>
+  </category>
+
+  <category>
+  <pattern>* MEHR</pattern>
+  <template><srai>JA</srai></template>
+  </category>
+  
+  <category>
+  <pattern>* MEHR *</pattern>
+  <template><srai>JA</srai></template>
+  </category>
+  
+   <category>
+  <pattern>MEHR *</pattern>
+  <template><srai>JA</srai></template>
+  </category>  
+  
+  <category>
+  <pattern>* SEHR</pattern>
+  <template><srai>JA</srai></template>
+  </category>
+  
+  <category>
+  <pattern>* SEHR *</pattern>
+  <template><srai>JA</srai></template>
+  </category>
+  
+  <category>
+  <pattern>SEHR *</pattern>
   <template><srai>JA</srai></template>
   </category> 
 
@@ -365,6 +436,7 @@ Bist du gern mit anderen Menschen zusammen?
 </category> 
 
 <topic name = "F7">
+  
   <category>
   <pattern>* GUT *</pattern>
   <template><srai>JA</srai></template>
@@ -597,7 +669,7 @@ Achtest du darauf immer freundlich zu sein?
 
 <topic name = "F12">
   <category>
-  <pattern> * NICHT *</pattern>
+  <pattern> * NICHT </pattern>
   <template><srai>NEIN</srai></template>
   </category> 
 
@@ -723,3 +795,86 @@ Wovor hast du denn am meisten Angst?
 </topic>
 
 </aiml>
+
+
+
+
+
+<!-- Fuer Ja 
+
+  <category>
+  <pattern>* JA</pattern>
+  <template><srai>JA</srai></template>
+  </category>
+
+  <category>
+  <pattern>* JA *</pattern>
+  <template><srai>JA</srai></template>
+  </category>
+  
+  <category>
+  <pattern>JA *</pattern>
+  <template><srai>JA</srai></template>
+  </category>  
+
+  <category>
+  <pattern>* SCHON</pattern>
+  <template><srai>JA</srai></template>
+  </category>
+  
+  <category>
+  <pattern>* SCHON *</pattern>
+  <template><srai>JA</srai></template>
+  </category>
+
+  <category>
+  <pattern>SCHON *</pattern>
+  <template><srai>JA</srai></template>
+  </category>  
+
+  <category>
+  <pattern>* VIEL</pattern>
+  <template><srai>JA</srai></template>
+  </category>  
+  
+  <category>
+  <pattern>* VIEL *</pattern>
+  <template><srai>JA</srai></template>
+  </category>
+  
+  <category>
+  <pattern>VIEL *</pattern>
+  <template><srai>JA</srai></template>
+  </category>
+
+  <category>
+  <pattern>* MEHR</pattern>
+  <template><srai>JA</srai></template>
+  </category>
+  
+  <category>
+  <pattern>* MEHR *</pattern>
+  <template><srai>JA</srai></template>
+  </category>
+  
+   <category>
+  <pattern>MEHR *</pattern>
+  <template><srai>JA</srai></template>
+  </category>  
+  
+  <category>
+  <pattern>* SEHR</pattern>
+  <template><srai>JA</srai></template>
+  </category>
+  
+  <category>
+  <pattern>* SEHR *</pattern>
+  <template><srai>JA</srai></template>
+  </category>
+  
+  <category>
+  <pattern>SEHR *</pattern>
+  <template><srai>JA</srai></template>
+  </category>
+  
+  -->
