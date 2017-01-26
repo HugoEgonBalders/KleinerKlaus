@@ -1371,7 +1371,7 @@ Bist du ein ängstlicher Typ?
 <!-- "NICHTS PASST" -->
 
 <category>
-<pattern>*</pattern>
+<pattern> * </pattern>
 <template>
 	<random>
 		<li>Was soll das denn heißen? Versteh' ich nicht.</li>
