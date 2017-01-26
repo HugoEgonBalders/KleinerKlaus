@@ -1275,6 +1275,20 @@ Bist du ein ängstlicher Typ?
 
 <!--"SINNLOSE FRAGEN" Noch nicht getestet -->
 
+<!-- "NICHTS PASST" -->
+
+<category>
+<pattern>*</pattern>
+<template>
+	<random>
+		<li>Was soll das denn heißen? Versteh' ich nicht.</li>
+		<li>Versuch's nochmal! Keine Ahnung was das heißen soll.</li>
+		<li>Nein das versteh' ich nicht.</li>
+		<li>Lass uns zurück zu dir und deinem Studium kommen.</li>
+	</random>
+</template>
+</category> 
+
 <!--"LAUNE" -->
 
 <category>
