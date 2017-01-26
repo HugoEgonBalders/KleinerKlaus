@@ -1,0 +1,15 @@
+*.pyc
+*.bak
+*.brn
+
+*.log
+.project
+.pydevproject
+
+.idea/
+.DS_Store
+
+# Vagrant files
+.vagrant/
+Vagrantfile
+vprovision.sh
