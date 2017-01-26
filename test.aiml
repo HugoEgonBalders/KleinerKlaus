@@ -274,24 +274,54 @@ Wie ordentlich erledigst du deine Aufgaben immer?
 
 <topic name = "F5">
   <category>
-  <pattern> * EHER ORDENTLICH</pattern>
+  <pattern>* EHER ORDENTLICH</pattern>
   <template><srai>JA</srai></template>
   </category>
 
   <category>
-  <pattern> * SEHR ORDENTLICH</pattern>
+  <pattern>* EHER ORDENTLICH *</pattern>
   <template><srai>JA</srai></template>
-  </category>  
+  </category>
+  
+  <category>
+  <pattern>EHER ORDENTLICH *</pattern>
+  <template><srai>JA</srai></template>
+  </category>
+  
+  <category>
+  <pattern>* SEHR ORDENTLICH</pattern>
+  <template><srai>JA</srai></template>
+  </category>
 
   <category>
-  <pattern> * NICHT *</pattern>
+  <pattern>* SEHR ORDENTLICH *</pattern>
+  <template><srai>JA</srai></template>
+  </category>
+
+<category>
+  <pattern>* SEHR ORDENTLICH *</pattern>
+  <template><srai>JA</srai></template>
+  </category>   
+
+  <category>
+  <pattern>* NICHT *</pattern>
   <template><srai>NEIN</srai></template>
   </category>   
 
   <category>
-  <pattern> * UNORDENTLICH *</pattern>
+  <pattern>* UNORDENTLICH</pattern>
+  <template><srai>NEIN</srai></template>
+  </category>
+  
+  <category>
+  <pattern>* UNORDENTLICH *</pattern>
   <template><srai>NEIN</srai></template>
   </category> 
+  
+  <category>
+  <pattern>UNORDENTLICH *</pattern>
+  <template><srai>NEIN</srai></template>
+  </category>
   
 <category>
 <pattern>JA</pattern>
@@ -490,6 +520,9 @@ Bist du sehr unternehmungslustig oder eher ein Stubenhocker??
   <template><srai>JA</srai></template>
   </category>
 
+  
+  
+  
   <category>
   <pattern> * HAUSE *</pattern>
   <template><srai>NEIN</srai></template>
@@ -800,7 +833,7 @@ Wovor hast du denn am meisten Angst?
 
 
 
-<!-- Fuer Ja 
+<!-- AFFIRMATION, Fuer JA 
 
   <category>
   <pattern>* JA</pattern>
@@ -875,6 +908,315 @@ Wovor hast du denn am meisten Angst?
   <category>
   <pattern>SEHR *</pattern>
   <template><srai>JA</srai></template>
+  </category>
+  
+  <category>
+  <pattern>* GERN</pattern>
+  <template><srai>JA</srai></template>
+  </category>
+  
+  <category>
+  <pattern>* GERN *</pattern>
+  <template><srai>JA</srai></template>
+  </category>
+  
+  <category>
+  <pattern>GERN *</pattern>
+  <template><srai>JA</srai></template>
+  </category>
+  
+  <category>
+  <pattern>* GERNE</pattern>
+  <template><srai>JA</srai></template>
+  </category>
+  
+  <category>
+  <pattern>* GERNE *</pattern>
+  <template><srai>JA</srai></template>
+  </category>
+  
+  <category>
+  <pattern>GERNE *</pattern>
+  <template><srai>JA</srai></template>
+  </category>
+  
+  <category>
+  <pattern>* KlAR</pattern>
+  <template><srai>JA</srai></template>
+  </category>
+  
+  <category>
+  <pattern>* KLAR *</pattern>
+  <template><srai>JA</srai></template>
+  </category>
+  
+  <category>
+  <pattern>KLAR *</pattern>
+  <template><srai>JA</srai></template>
+  </category>
+  
+  <category>
+  <pattern>* NATÜRLICH</pattern>
+  <template><srai>JA</srai></template>
+  </category>
+  
+  <category>
+  <pattern>* NATÜRLICH *</pattern>
+  <template><srai>JA</srai></template>
+  </category>
+  
+  <category>
+  <pattern>NATÜRLICH *</pattern>
+  <template><srai>JA</srai></template>
+  </category>
+  
+  <category>
+  <pattern>* FREILICH</pattern>
+  <template><srai>JA</srai></template>
+  </category>
+  
+  <category>
+  <pattern>* FREILICH *</pattern>
+  <template><srai>JA</srai></template>
+  </category>
+  
+  <category>
+  <pattern>FREILICH *</pattern>
+  <template><srai>JA</srai></template>
+  </category>
+  
+  <category>
+  <pattern>* DURCHAUS</pattern>
+  <template><srai>JA</srai></template>
+  </category>
+  
+  <category>
+  <pattern>* DURCHAUS *</pattern>
+  <template><srai>JA</srai></template>
+  </category>
+  
+  <category>
+  <pattern>DURCHAUS *</pattern>
+  <template><srai>JA</srai></template>
+  </category>
+  
+  <category>
+  <pattern>* GEWISS</pattern>
+  <template><srai>JA</srai></template>
+  </category>
+  
+  <category>
+  <pattern>* GEWISS *</pattern>
+  <template><srai>JA</srai></template>
+  </category>
+  
+  <category>
+  <pattern>GEWISS *</pattern>
+  <template><srai>JA</srai></template>
+  </category>
+  
+  <category>
+  <pattern>* AUF JEDEN FALL</pattern>
+  <template><srai>JA</srai></template>
+  </category>
+  
+  <category>
+  <pattern>* AUF JEDEN FALL *</pattern>
+  <template><srai>JA</srai></template>
+  </category>
+  
+  <category>
+  <pattern>AUF JEDEN FALL *</pattern>
+  <template><srai>JA</srai></template>
+  </category>
+  
+  -->
+  
+  
+  
+  
+  
+  
+  <!-- NEGGATION, fuer NEIN
+  
+  <category>
+  <pattern>* NEIN</pattern>
+  <template><srai>NEIN</srai></template>
+  </category>
+  
+  <category>
+  <pattern>* NEIN *</pattern>
+  <template><srai>NEIN</srai></template>
+  </category>
+  
+  <category>
+  <pattern>NEIN *</pattern>
+  <template><srai>NEIN</srai></template>
+  </category>
+  
+  <category>
+  <pattern>* NICHT</pattern>
+  <template><srai>NEIN</srai></template>
+  </category>
+  
+  <category>
+  <pattern>* NICHT *</pattern>
+  <template><srai>NEIN</srai></template>
+  </category>
+  
+  <category>
+  <pattern>NICHT *</pattern>
+  <template><srai>NEIN</srai></template>
+  </category>
+  
+  <category>
+  <pattern>* WENIG</pattern>
+  <template><srai>NEIN</srai></template>
+  </category>
+  
+  <category>
+  <pattern>* WENIG *</pattern>
+  <template><srai>NEIN</srai></template>
+  </category>
+  
+  <category>
+  <pattern>WENIG *</pattern>
+  <template><srai>NEIN</srai></template>
+  </category>
+  
+  <category>
+  <pattern>* WENIGER</pattern>
+  <template><srai>NEIN</srai></template>
+  </category>
+  
+  <category>
+  <pattern>* WENIGER *</pattern>
+  <template><srai>NEIN</srai></template>
+  </category>
+  
+  <category>
+  <pattern>WENIGER *</pattern>
+  <template><srai>NEIN</srai></template>
+  </category>
+  
+  <category>
+  <pattern>* SELTEN</pattern>
+  <template><srai>NEIN</srai></template>
+  </category>
+  
+  <category>
+  <pattern>* SELTEN *</pattern>
+  <template><srai>NEIN</srai></template>
+  </category>
+  
+  <category>
+  <pattern>SELTEN *</pattern>
+  <template><srai>NEIN</srai></template>
+  </category>
+  
+  <category>
+  <pattern>* KEIN</pattern>
+  <template><srai>NEIN</srai></template>
+  </category>
+  
+  <category>
+  <pattern>* KEIN *</pattern>
+  <template><srai>NEIN</srai></template>
+  </category>
+  
+  <category>
+  <pattern>KEIN *</pattern>
+  <template><srai>NEIN</srai></template>
+  </category>
+  
+  <category>
+  <pattern>* KEINE</pattern>
+  <template><srai>NEIN</srai></template>
+  </category>
+  
+  <category>
+  <pattern>* KEINE *</pattern>
+  <template><srai>NEIN</srai></template>
+  </category>
+  
+  <category>
+  <pattern>KEINE *</pattern>
+  <template><srai>NEIN</srai></template>
+  </category>
+  
+  <category>
+  <pattern>* NIE</pattern>
+  <template><srai>NEIN</srai></template>
+  </category>
+  
+  <category>
+  <pattern>* NIE *</pattern>
+  <template><srai>NEIN</srai></template>
+  </category>
+  
+  <category>
+  <pattern>NIE *</pattern>
+  <template><srai>NEIN</srai></template>
+  </category>
+  
+  <category>
+  <pattern>* NIEMALS</pattern>
+  <template><srai>NEIN</srai></template>
+  </category>
+  
+  <category>
+  <pattern>* NIEMALS *</pattern>
+  <template><srai>NEIN</srai></template>
+  </category>
+  
+  <category>
+  <pattern>NIEMALS *</pattern>
+  <template><srai>NEIN</srai></template>
+  </category>
+  
+  <category>
+  <pattern>* KEINESFALLS</pattern>
+  <template><srai>NEIN</srai></template>
+  </category>
+  
+  <category>
+  <pattern>* KEINESFALLS *</pattern>
+  <template><srai>NEIN</srai></template>
+  </category>
+  
+  <category>
+  <pattern>KEINESFALLS *</pattern>
+  <template><srai>NEIN</srai></template>
+  </category>
+  
+  <category>
+  <pattern>* KEINESWEGS</pattern>
+  <template><srai>NEIN</srai></template>
+  </category>
+  
+  <category>
+  <pattern>* KEINESWEGS *</pattern>
+  <template><srai>NEIN</srai></template>
+  </category>
+  
+  <category>
+  <pattern>KEINESWEGS *</pattern>
+  <template><srai>NEIN</srai></template>
+  </category>
+  
+  <category>
+  <pattern>* NÖ</pattern>
+  <template><srai>NEIN</srai></template>
+  </category>
+  
+  <category>
+  <pattern>* NÖ *</pattern>
+  <template><srai>NEIN</srai></template>
+  </category>
+  
+  <category>
+  <pattern>NÖ *</pattern>
+  <template><srai>NEIN</srai></template>
   </category>
   
   -->
