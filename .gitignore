@@ -1,3 +1,5 @@
+*.swp
+
 *.pyc
 *.bak
 *.brn
@@ -13,3 +15,4 @@
 .vagrant/
 Vagrantfile
 vprovision.sh
+

@@ -18,6 +18,9 @@ import time
 import threading
 import xml.sax
 
+import numpy as np
+from . import big5
+import datetime
 
 class Kernel:
     # module constants
@@ -39,6 +42,7 @@ class Kernel:
 
         # set up the sessions
         self._sessionManager = _sessionManager
+        self._sessions = _sessionManager._sessions
         self._sessionManager._addSession(self._globalSessionID)
 
         # Set up the bot predicates
@@ -176,8 +180,38 @@ class Kernel:
         string is returned.
 
         """
-        try: return self._sessionManager._get_session_value(sessionID, name)
-        except KeyError: return ""
+
+        if name == "result":
+            return big5.best_match(np.array([
+                float(self._sessions[sessionID].get("neuroticism",0)),
+                float(self._sessions[sessionID].get("extraversion",0)),
+                float(self._sessions[sessionID].get("openness",0)),
+                float(self._sessions[sessionID].get("agreeableness",0)),
+                float(self._sessions[sessionID].get("conscientiousness",0)),
+                ])) 
+        elif name == "resultdebug":
+            return str([float(self._sessions[sessionID].get("neuroticism",0)),
+                    float(self._sessions[sessionID].get("extraversion",0)),
+                    float(self._sessions[sessionID].get("openness",0)),
+                    float(self._sessions[sessionID].get("agreeableness",0)),
+                    float(self._sessions[sessionID].get("conscientiousness",0))])
+        elif name == "tageszeit":
+            h = datetime.datetime.now().time().hour
+            if h < 12:
+                return "Morgen"
+            elif h >= 12 and h <= 18:
+                return "Tag"
+            elif h > 18:
+                return "Abend"
+        elif name == "zeit":
+            h = datetime.datetime.now().time().hour
+            m = datetime.datetime.now().time().minute
+            return str(h) + ":" + str(m)
+        else: 
+            try:
+                return self._sessionManager._get_session_value(sessionID, name)
+            except KeyError:
+                return ""
 
     def setPredicate(self, name, value, sessionID = _globalSessionID):
         """Set the value of the predicate 'name' in the specified
@@ -189,7 +223,18 @@ class Kernel:
 
         """
         self._sessionManager._addSession(sessionID) # add the session, if it doesn't already exist.
-        self._sessionManager._set_session_value(sessionID, name, value)
+
+        if name == "neuroticism" or name == "extraversion" or name == "openness" or name == "agreeableness" or name == "conscientiousness": 
+            if not name in self._sessions[sessionID]:
+                self._sessions[sessionID][name] = "0"
+            #print(self._sessions[sessionID][name])
+            #print(float(value))
+            #print(float(self._sessions[sessionID][name]) +  float(value))
+            self._sessions[sessionID][name] = str(float(self._sessions[sessionID][name]) +  float(value))
+        elif name[:6] == "ignore":
+            big5.ignore_subject(name[7:])
+        else:
+            self._sessionManager._set_session_value(sessionID, name, value)
 
     def getBotPredicate(self, name):
         """Retrieve the value of the specified bot predicate.
