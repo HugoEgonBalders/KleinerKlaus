@@ -751,6 +751,7 @@ Achtest du sehr darauf, ob Regeln eingehalten werden?
   <template><srai>NEIN</srai></template>
   </category>
   
+  <category>
   <pattern>NIEMALS</pattern>
   <template><srai>NEIN</srai></template>
   </category>
