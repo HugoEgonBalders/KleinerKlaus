@@ -357,6 +357,11 @@ Achtest du sehr darauf, ob Regeln eingehalten werden?
   </category>  
 
   <category>
+  <pattern>SCHON</pattern>
+  <template><srai>JA</srai></template>
+  </category>
+  
+  <category>
   <pattern>* SCHON</pattern>
   <template><srai>JA</srai></template>
   </category>
@@ -371,6 +376,11 @@ Achtest du sehr darauf, ob Regeln eingehalten werden?
   <template><srai>JA</srai></template>
   </category>  
 
+  <category>
+  <pattern>VIEL</pattern>
+  <template><srai>JA</srai></template>
+  </category>
+  
   <category>
   <pattern>* VIEL</pattern>
   <template><srai>JA</srai></template>
@@ -387,6 +397,11 @@ Achtest du sehr darauf, ob Regeln eingehalten werden?
   </category>
 
   <category>
+  <pattern>MEHR</pattern>
+  <template><srai>JA</srai></template>
+  </category>
+  
+  <category>
   <pattern>* MEHR</pattern>
   <template><srai>JA</srai></template>
   </category>
@@ -396,10 +411,15 @@ Achtest du sehr darauf, ob Regeln eingehalten werden?
   <template><srai>JA</srai></template>
   </category>
   
-   <category>
+  <category>
   <pattern>MEHR *</pattern>
   <template><srai>JA</srai></template>
   </category>  
+  
+  <category>
+  <pattern>SEHR</pattern>
+  <template><srai>JA</srai></template>
+  </category>
   
   <category>
   <pattern>* SEHR</pattern>
@@ -414,22 +434,401 @@ Achtest du sehr darauf, ob Regeln eingehalten werden?
   <category>
   <pattern>SEHR *</pattern>
   <template><srai>JA</srai></template>
-  </category> 
-
-  <category>
-  <pattern> * NICHT *</pattern>
-  <template><srai>NEIN</srai></template>
-  </category>   
-
-  <category>
-  <pattern> * WENIG *</pattern>
-  <template><srai>NEIN</srai></template>
-  </category>   
+  </category>
   
   <category>
-  <pattern> * WENIGER *</pattern>
+  <pattern>GERN</pattern>
+  <template><srai>JA</srai></template>
+  </category>
+
+  <category>
+  <pattern>* GERN</pattern>
+  <template><srai>JA</srai></template>
+  </category>
+  
+  <category>
+  <pattern>* GERN *</pattern>
+  <template><srai>JA</srai></template>
+  </category>
+  
+  <category>
+  <pattern>GERN *</pattern>
+  <template><srai>JA</srai></template>
+  </category>
+  
+  <category>
+  <pattern>GERNE</pattern>
+  <template><srai>JA</srai></template>
+  </category>
+  
+  <category>
+  <pattern>* GERNE</pattern>
+  <template><srai>JA</srai></template>
+  </category>
+  
+  <category>
+  <pattern>* GERNE *</pattern>
+  <template><srai>JA</srai></template>
+  </category>
+  
+  <category>
+  <pattern>GERNE *</pattern>
+  <template><srai>JA</srai></template>
+  </category>
+  
+  <category>
+  <pattern>KlAR</pattern>
+  <template><srai>JA</srai></template>
+  </category>
+  
+  <category>
+  <pattern>* KlAR</pattern>
+  <template><srai>JA</srai></template>
+  </category>
+  
+  <category>
+  <pattern>* KLAR *</pattern>
+  <template><srai>JA</srai></template>
+  </category>
+  
+  <category>
+  <pattern>KLAR *</pattern>
+  <template><srai>JA</srai></template>
+  </category>
+  
+  <category>
+  <pattern>NATÜRLICH</pattern>
+  <template><srai>JA</srai></template>
+  </category>
+  
+  <category>
+  <pattern>* NATÜRLICH</pattern>
+  <template><srai>JA</srai></template>
+  </category>
+  
+  <category>
+  <pattern>* NATÜRLICH *</pattern>
+  <template><srai>JA</srai></template>
+  </category>
+  
+  <category>
+  <pattern>NATÜRLICH *</pattern>
+  <template><srai>JA</srai></template>
+  </category>
+  
+ <category>
+  <pattern>FREILICH</pattern>
+  <template><srai>JA</srai></template>
+  </category>
+  
+  <category>
+  <pattern>* FREILICH</pattern>
+  <template><srai>JA</srai></template>
+  </category>
+  
+  <category>
+  <pattern>* FREILICH *</pattern>
+  <template><srai>JA</srai></template>
+  </category>
+  
+  <category>
+  <pattern>FREILICH *</pattern>
+  <template><srai>JA</srai></template>
+  </category>
+  
+  <category>
+  <pattern>DURCHAUS</pattern>
+  <template><srai>JA</srai></template>
+  </category>
+  
+  <category>
+  <pattern>* DURCHAUS</pattern>
+  <template><srai>JA</srai></template>
+  </category>
+  
+  <category>
+  <pattern>* DURCHAUS *</pattern>
+  <template><srai>JA</srai></template>
+  </category>
+  
+  <category>
+  <pattern>DURCHAUS *</pattern>
+  <template><srai>JA</srai></template>
+  </category>
+  
+  <category>
+  <pattern>GEWISS</pattern>
+  <template><srai>JA</srai></template>
+  </category>
+  
+  <category>
+  <pattern>* GEWISS</pattern>
+  <template><srai>JA</srai></template>
+  </category>
+  
+  <category>
+  <pattern>* GEWISS *</pattern>
+  <template><srai>JA</srai></template>
+  </category>
+  
+  <category>
+  <pattern>GEWISS *</pattern>
+  <template><srai>JA</srai></template>
+  </category>
+  
+  <category>
+  <pattern>AUF JEDEN FALL</pattern>
+  <template><srai>JA</srai></template>
+  </category>
+  
+  <category>
+  <pattern>* AUF JEDEN FALL</pattern>
+  <template><srai>JA</srai></template>
+  </category>
+  
+  <category>
+  <pattern>* AUF JEDEN FALL *</pattern>
+  <template><srai>JA</srai></template>
+  </category>
+  
+  <category>
+  <pattern>AUF JEDEN FALL *</pattern>
+  <template><srai>JA</srai></template>
+  </category>
+  
+  <category>
+  <pattern>* NEIN</pattern>
   <template><srai>NEIN</srai></template>
-  </category>   
+  </category>
+  
+  <category>
+  <pattern>* NEIN *</pattern>
+  <template><srai>NEIN</srai></template>
+  </category>
+  
+  <category>
+  <pattern>NEIN *</pattern>
+  <template><srai>NEIN</srai></template>
+  </category>
+  
+  <category>
+  <pattern>NICHT</pattern>
+  <template><srai>NEIN</srai></template>
+  </category>
+  
+  <category>
+  <pattern>* NICHT</pattern>
+  <template><srai>NEIN</srai></template>
+  </category>
+  
+  <category>
+  <pattern>* NICHT *</pattern>
+  <template><srai>NEIN</srai></template>
+  </category>
+  
+  <category>
+  <pattern>NICHT *</pattern>
+  <template><srai>NEIN</srai></template>
+  </category>
+  
+  <category>
+  <pattern>WENIG</pattern>
+  <template><srai>NEIN</srai></template>
+  </category>
+  
+  <category>
+  <pattern>* WENIG</pattern>
+  <template><srai>NEIN</srai></template>
+  </category>
+  
+  <category>
+  <pattern>* WENIG *</pattern>
+  <template><srai>NEIN</srai></template>
+  </category>
+  
+  <category>
+  <pattern>WENIG *</pattern>
+  <template><srai>NEIN</srai></template>
+  </category>
+  
+  <category>
+  <pattern>WENIGER</pattern>
+  <template><srai>NEIN</srai></template>
+  </category>
+  
+  <category>
+  <pattern>* WENIGER</pattern>
+  <template><srai>NEIN</srai></template>
+  </category>
+  
+  <category>
+  <pattern>* WENIGER *</pattern>
+  <template><srai>NEIN</srai></template>
+  </category>
+  
+  <category>
+  <pattern>WENIGER *</pattern>
+  <template><srai>NEIN</srai></template>
+  </category>
+  
+  <category>
+  <pattern>SELTEN</pattern>
+  <template><srai>NEIN</srai></template>
+  </category>
+  
+  <category>
+  <pattern>* SELTEN</pattern>
+  <template><srai>NEIN</srai></template>
+  </category>
+  
+  <category>
+  <pattern>* SELTEN *</pattern>
+  <template><srai>NEIN</srai></template>
+  </category>
+  
+  <category>
+  <pattern>SELTEN *</pattern>
+  <template><srai>NEIN</srai></template>
+  </category>
+  
+  <category>
+  <pattern>KEIN</pattern>
+  <template><srai>NEIN</srai></template>
+  </category>
+  
+  <category>
+  <pattern>* KEIN</pattern>
+  <template><srai>NEIN</srai></template>
+  </category>
+  
+  <category>
+  <pattern>* KEIN *</pattern>
+  <template><srai>NEIN</srai></template>
+  </category>
+  
+  <category>
+  <pattern>KEIN *</pattern>
+  <template><srai>NEIN</srai></template>
+  </category>
+  
+  <category>
+  <pattern>KEINE</pattern>
+  <template><srai>NEIN</srai></template>
+  </category>
+  
+  <category>
+  <pattern>* KEINE</pattern>
+  <template><srai>NEIN</srai></template>
+  </category>
+  
+  <category>
+  <pattern>* KEINE *</pattern>
+  <template><srai>NEIN</srai></template>
+  </category>
+  
+  <category>
+  <pattern>KEINE *</pattern>
+  <template><srai>NEIN</srai></template>
+  </category>
+  
+  <category>
+  <pattern>NIE</pattern>
+  <template><srai>NEIN</srai></template>
+  </category>
+  
+  <category>
+  <pattern>* NIE</pattern>
+  <template><srai>NEIN</srai></template>
+  </category>
+  
+  <category>
+  <pattern>* NIE *</pattern>
+  <template><srai>NEIN</srai></template>
+  </category>
+  
+  <category>
+  <pattern>NIE *</pattern>
+  <template><srai>NEIN</srai></template>
+  </category>
+  
+  <pattern>NIEMALS</pattern>
+  <template><srai>NEIN</srai></template>
+  </category>
+  
+  <category>
+  <pattern>* NIEMALS</pattern>
+  <template><srai>NEIN</srai></template>
+  </category>
+  
+  <category>
+  <pattern>* NIEMALS *</pattern>
+  <template><srai>NEIN</srai></template>
+  </category>
+  
+  <category>
+  <pattern>NIEMALS *</pattern>
+  <template><srai>NEIN</srai></template>
+  </category>
+  
+  <category>
+  <pattern>KEINESFALLS</pattern>
+  <template><srai>NEIN</srai></template>
+  </category>
+  
+  <category>
+  <pattern>* KEINESFALLS</pattern>
+  <template><srai>NEIN</srai></template>
+  </category>
+  
+  <category>
+  <pattern>* KEINESFALLS *</pattern>
+  <template><srai>NEIN</srai></template>
+  </category>
+  
+  <category>
+  <pattern>KEINESFALLS *</pattern>
+  <template><srai>NEIN</srai></template>
+  </category>
+  
+  <category>
+  <pattern>KEINESWEGS</pattern>
+  <template><srai>NEIN</srai></template>
+  </category>
+  
+  <category>
+  <pattern>* KEINESWEGS</pattern>
+  <template><srai>NEIN</srai></template>
+  </category>
+  
+  <category>
+  <pattern>* KEINESWEGS *</pattern>
+  <template><srai>NEIN</srai></template>
+  </category>
+  
+  <category>
+  <pattern>KEINESWEGS *</pattern>
+  <template><srai>NEIN</srai></template>
+  </category>
+  
+  <category>
+  <pattern>NÖ</pattern>
+  <template><srai>NEIN</srai></template>
+  </category>
+  
+  <category>
+  <pattern>* NÖ</pattern>
+  <template><srai>NEIN</srai></template>
+  </category>
+  
+  <category>
+  <pattern>* NÖ *</pattern>
+  <template><srai>NEIN</srai></template>
+  </category>
+  
+  <category>
+  <pattern>NÖ *</pattern>
+  <template><srai>NEIN</srai></template>
+  </category>
 
   <category>
   <pattern>JA</pattern>
@@ -895,6 +1294,11 @@ Bist du ein ängstlicher Typ?
   </category>  
 
   <category>
+  <pattern>SCHON</pattern>
+  <template><srai>JA</srai></template>
+  </category>
+  
+  <category>
   <pattern>* SCHON</pattern>
   <template><srai>JA</srai></template>
   </category>
@@ -909,6 +1313,11 @@ Bist du ein ängstlicher Typ?
   <template><srai>JA</srai></template>
   </category>  
 
+  <category>
+  <pattern>VIEL</pattern>
+  <template><srai>JA</srai></template>
+  </category>
+  
   <category>
   <pattern>* VIEL</pattern>
   <template><srai>JA</srai></template>
@@ -925,6 +1334,11 @@ Bist du ein ängstlicher Typ?
   </category>
 
   <category>
+  <pattern>MEHR</pattern>
+  <template><srai>JA</srai></template>
+  </category>
+  
+  <category>
   <pattern>* MEHR</pattern>
   <template><srai>JA</srai></template>
   </category>
@@ -938,6 +1352,11 @@ Bist du ein ängstlicher Typ?
   <pattern>MEHR *</pattern>
   <template><srai>JA</srai></template>
   </category>  
+  
+  <category>
+  <pattern>SEHR</pattern>
+  <template><srai>JA</srai></template>
+  </category>
   
   <category>
   <pattern>* SEHR</pattern>
@@ -954,6 +1373,10 @@ Bist du ein ängstlicher Typ?
   <template><srai>JA</srai></template>
   </category>
   
+  <category>
+  <pattern>GERN</pattern>
+  <template><srai>JA</srai></template>
+  </category>
 
   <category>
   <pattern>* GERN</pattern>
@@ -967,6 +1390,11 @@ Bist du ein ängstlicher Typ?
   
   <category>
   <pattern>GERN *</pattern>
+  <template><srai>JA</srai></template>
+  </category>
+  
+  <category>
+  <pattern>GERNE</pattern>
   <template><srai>JA</srai></template>
   </category>
   
@@ -986,6 +1414,11 @@ Bist du ein ängstlicher Typ?
   </category>
   
   <category>
+  <pattern>KlAR</pattern>
+  <template><srai>JA</srai></template>
+  </category>
+  
+  <category>
   <pattern>* KlAR</pattern>
   <template><srai>JA</srai></template>
   </category>
@@ -1001,6 +1434,11 @@ Bist du ein ängstlicher Typ?
   </category>
   
   <category>
+  <pattern>NATÜRLICH</pattern>
+  <template><srai>JA</srai></template>
+  </category>
+  
+  <category>
   <pattern>* NATÜRLICH</pattern>
   <template><srai>JA</srai></template>
   </category>
@@ -1012,6 +1450,11 @@ Bist du ein ängstlicher Typ?
   
   <category>
   <pattern>NATÜRLICH *</pattern>
+  <template><srai>JA</srai></template>
+  </category>
+  
+ <category>
+  <pattern>FREILICH</pattern>
   <template><srai>JA</srai></template>
   </category>
   
@@ -1031,6 +1474,11 @@ Bist du ein ängstlicher Typ?
   </category>
   
   <category>
+  <pattern>DURCHAUS</pattern>
+  <template><srai>JA</srai></template>
+  </category>
+  
+  <category>
   <pattern>* DURCHAUS</pattern>
   <template><srai>JA</srai></template>
   </category>
@@ -1046,6 +1494,11 @@ Bist du ein ängstlicher Typ?
   </category>
   
   <category>
+  <pattern>GEWISS</pattern>
+  <template><srai>JA</srai></template>
+  </category>
+  
+  <category>
   <pattern>* GEWISS</pattern>
   <template><srai>JA</srai></template>
   </category>
@@ -1057,6 +1510,11 @@ Bist du ein ängstlicher Typ?
   
   <category>
   <pattern>GEWISS *</pattern>
+  <template><srai>JA</srai></template>
+  </category>
+  
+  <category>
+  <pattern>AUF JEDEN FALL</pattern>
   <template><srai>JA</srai></template>
   </category>
   
@@ -1100,6 +1558,11 @@ Bist du ein ängstlicher Typ?
   </category>
   
   <category>
+  <pattern>NICHT</pattern>
+  <template><srai>NEIN</srai></template>
+  </category>
+  
+  <category>
   <pattern>* NICHT</pattern>
   <template><srai>NEIN</srai></template>
   </category>
@@ -1111,6 +1574,11 @@ Bist du ein ängstlicher Typ?
   
   <category>
   <pattern>NICHT *</pattern>
+  <template><srai>NEIN</srai></template>
+  </category>
+  
+  <category>
+  <pattern>WENIG</pattern>
   <template><srai>NEIN</srai></template>
   </category>
   
@@ -1130,6 +1598,11 @@ Bist du ein ängstlicher Typ?
   </category>
   
   <category>
+  <pattern>WENIGER</pattern>
+  <template><srai>NEIN</srai></template>
+  </category>
+  
+  <category>
   <pattern>* WENIGER</pattern>
   <template><srai>NEIN</srai></template>
   </category>
@@ -1141,6 +1614,11 @@ Bist du ein ängstlicher Typ?
   
   <category>
   <pattern>WENIGER *</pattern>
+  <template><srai>NEIN</srai></template>
+  </category>
+  
+  <category>
+  <pattern>SELTEN</pattern>
   <template><srai>NEIN</srai></template>
   </category>
   
@@ -1160,6 +1638,11 @@ Bist du ein ängstlicher Typ?
   </category>
   
   <category>
+  <pattern>KEIN</pattern>
+  <template><srai>NEIN</srai></template>
+  </category>
+  
+  <category>
   <pattern>* KEIN</pattern>
   <template><srai>NEIN</srai></template>
   </category>
@@ -1171,6 +1654,11 @@ Bist du ein ängstlicher Typ?
   
   <category>
   <pattern>KEIN *</pattern>
+  <template><srai>NEIN</srai></template>
+  </category>
+  
+  <category>
+  <pattern>KEINE</pattern>
   <template><srai>NEIN</srai></template>
   </category>
   
@@ -1190,6 +1678,11 @@ Bist du ein ängstlicher Typ?
   </category>
   
   <category>
+  <pattern>NIE</pattern>
+  <template><srai>NEIN</srai></template>
+  </category>
+  
+  <category>
   <pattern>* NIE</pattern>
   <template><srai>NEIN</srai></template>
   </category>
@@ -1201,6 +1694,10 @@ Bist du ein ängstlicher Typ?
   
   <category>
   <pattern>NIE *</pattern>
+  <template><srai>NEIN</srai></template>
+  </category>
+  
+  <pattern>NIEMALS</pattern>
   <template><srai>NEIN</srai></template>
   </category>
   
@@ -1220,6 +1717,11 @@ Bist du ein ängstlicher Typ?
   </category>
   
   <category>
+  <pattern>KEINESFALLS</pattern>
+  <template><srai>NEIN</srai></template>
+  </category>
+  
+  <category>
   <pattern>* KEINESFALLS</pattern>
   <template><srai>NEIN</srai></template>
   </category>
@@ -1235,6 +1737,11 @@ Bist du ein ängstlicher Typ?
   </category>
   
   <category>
+  <pattern>KEINESWEGS</pattern>
+  <template><srai>NEIN</srai></template>
+  </category>
+  
+  <category>
   <pattern>* KEINESWEGS</pattern>
   <template><srai>NEIN</srai></template>
   </category>
@@ -1246,6 +1753,11 @@ Bist du ein ängstlicher Typ?
   
   <category>
   <pattern>KEINESWEGS *</pattern>
+  <template><srai>NEIN</srai></template>
+  </category>
+  
+  <category>
+  <pattern>NÖ</pattern>
   <template><srai>NEIN</srai></template>
   </category>
   
