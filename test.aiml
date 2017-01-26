@@ -845,6 +845,15 @@ Bist du ein ängstlicher Typ?
   </category>
 
   <category>
+  <pattern>VOR *</pattern>
+
+  <template>
+    <think><set name = "ANGST"><star index="1"/></set></think>
+    <srai>DINGGENNANT</srai>
+  </template>
+  </category>
+
+  <category>
   <pattern>*</pattern>
   <template>
     Oh ja, die sind schlimm!
