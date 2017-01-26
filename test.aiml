@@ -1271,6 +1271,99 @@ Bist du ein ängstlicher Typ?
 
 </topic>
 
+<!-- FRAGEN ZUM GEHALT -->
+
+<category>
+<pattern>_ VERDIENT *</pattern>
+ <template>
+   <srai>GELD50</srai>
+ </template>
+</category>
+
+<category>
+<pattern>WER VERDIENT *</pattern>
+ <template>
+   <srai>GELDMAX</srai>
+ </template>
+</category>
+
+<category>
+<pattern>_ VERDIENT * MEISTEN</pattern>
+ <template>
+   <srai>GELDMAX</srai>
+ </template>
+</category>
+
+<category>
+<pattern>_ VERDIENT * MEISTE *</pattern>
+ <template>
+   <srai>GELDMAX</srai>
+ </template>
+</category>
+
+<category>
+<pattern>_ VERDIENT * MEISTEN *</pattern>
+ <template>
+   <srai>GELDMAX</srai>
+ </template>
+</category>
+
+<category>
+<pattern>_ GEHALT *</pattern>
+ <template>
+   <srai>GELD50</srai>
+ </template>
+</category>
+
+<category>
+<pattern>_ GEHALT</pattern>
+ <template>
+   <srai>GELD50</srai>
+ </template>
+</category>
+
+<category>
+<pattern>* HOHES GEHALT</pattern>
+ <template>
+   <srai>GELDMAX</srai>
+ </template>
+</category>
+
+<category>
+<pattern>* HOHES GEHALT *</pattern>
+ <template>
+   <srai>GELDMAX</srai>
+ </template>
+</category>
+
+<category>
+<pattern>_ GELD *</pattern>
+ <template>
+   <srai>GELD50</srai>
+ </template>
+</category>
+
+<category>
+<pattern>* GELD</pattern>
+ <template>
+   <srai>GELD50</srai>
+ </template>
+</category>
+
+<category>
+<pattern>GELD50</pattern>
+ <template>
+   Etwa 50.000€ im Jahr sind es schon, für den Anfang.
+ </template>
+</category>
+
+<category>
+<pattern>GELDMAX</pattern>
+ <template>
+   Ich glaube als Ingenieur verdient man am meisten. So 51.000€ im Jahr?
+   Am besten gehts einem wahrscheinlich wenn man ein bisschien BWL dazu macht. 
+ </template>
+</category>
 
 
 <!--"SINNLOSE FRAGEN" Noch nicht getestet -->
