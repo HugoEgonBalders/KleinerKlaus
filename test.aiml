@@ -99,6 +99,106 @@ Bist du ein neugieriger Mensch?
  
 <topic name = "F1">
   
+  <category>
+  <pattern>GUT</pattern>
+  <template><srai>JA</srai></template>
+  </category>
+  
+  <category>
+  <pattern>GUT *</pattern>
+  <template><srai>JA</srai></template>
+  </category>  
+  
+  <category>
+  <pattern>* GUT</pattern>
+  <template><srai>JA</srai></template>
+  </category>
+
+  <category>
+  <pattern>* GUT *</pattern>
+  <template><srai>JA</srai></template>
+  </category>
+  
+  <category>
+  <pattern>IMMER</pattern>
+  <template><srai>JA</srai></template>
+  </category>
+  
+  <category>
+  <pattern>IMMER *</pattern>
+  <template><srai>JA</srai></template>
+  </category>  
+  
+  <category>
+  <pattern>* IMMER</pattern>
+  <template><srai>JA</srai></template>
+  </category>
+
+  <category>
+  <pattern>* IMMER *</pattern>
+  <template><srai>JA</srai></template>
+  </category>
+  
+  <category>
+  <pattern>SOWIESO</pattern>
+  <template><srai>JA</srai></template>
+  </category>
+  
+  <category>
+  <pattern>SOWIESO *</pattern>
+  <template><srai>JA</srai></template>
+  </category>  
+  
+  <category>
+  <pattern>* SOWIESO</pattern>
+  <template><srai>JA</srai></template>
+  </category>
+
+  <category>
+  <pattern>* SOWIESO *</pattern>
+  <template><srai>JA</srai></template>
+  </category>
+  
+  <category>
+  <pattern>JO</pattern>
+  <template><srai>JA</srai></template>
+  </category>
+  
+  <category>
+  <pattern>JO *</pattern>
+  <template><srai>JA</srai></template>
+  </category>  
+  
+  <category>
+  <pattern>* JO</pattern>
+  <template><srai>JA</srai></template>
+  </category>
+
+  <category>
+  <pattern>* JO *</pattern>
+  <template><srai>JA</srai></template>
+  </category>
+  
+  <category>
+  <pattern>SICHERHEIT</pattern>
+  <template><srai>JA</srai></template>
+  </category>
+  
+  <category>
+  <pattern>SICHERHEIT *</pattern>
+  <template><srai>JA</srai></template>
+  </category>  
+  
+  <category>
+  <pattern>* SICHERHEIT</pattern>
+  <template><srai>JA</srai></template>
+  </category>
+
+  <category>
+  <pattern>* SICHERHEIT *</pattern>
+  <template><srai>JA</srai></template>
+  </category>
+  
   
   <category>
   <pattern>* JA</pattern>
@@ -354,7 +454,6 @@ Bist du ein neugieriger Mensch?
   <pattern>AUF JEDEN FALL *</pattern>
   <template><srai>JA</srai></template>
   </category>
-  
   
   <category>
   <pattern>* NEIN</pattern>
@@ -621,8 +720,107 @@ Bist du ein neugieriger Mensch?
 </category>
 
 <topic name = "F2">
+<category>
+  <pattern>GUT</pattern>
+  <template><srai>JA</srai></template>
+  </category>
   
+  <category>
+  <pattern>GUT *</pattern>
+  <template><srai>JA</srai></template>
+  </category>  
+  
+  <category>
+  <pattern>* GUT</pattern>
+  <template><srai>JA</srai></template>
+  </category>
 
+  <category>
+  <pattern>* GUT *</pattern>
+  <template><srai>JA</srai></template>
+  </category>
+  
+  <category>
+  <pattern>IMMER</pattern>
+  <template><srai>JA</srai></template>
+  </category>
+  
+  <category>
+  <pattern>IMMER *</pattern>
+  <template><srai>JA</srai></template>
+  </category>  
+  
+  <category>
+  <pattern>* IMMER</pattern>
+  <template><srai>JA</srai></template>
+  </category>
+
+  <category>
+  <pattern>* IMMER *</pattern>
+  <template><srai>JA</srai></template>
+  </category>
+  
+  <category>
+  <pattern>SOWIESO</pattern>
+  <template><srai>JA</srai></template>
+  </category>
+  
+  <category>
+  <pattern>SOWIESO *</pattern>
+  <template><srai>JA</srai></template>
+  </category>  
+  
+  <category>
+  <pattern>* SOWIESO</pattern>
+  <template><srai>JA</srai></template>
+  </category>
+
+  <category>
+  <pattern>* SOWIESO *</pattern>
+  <template><srai>JA</srai></template>
+  </category>
+  
+  <category>
+  <pattern>JO</pattern>
+  <template><srai>JA</srai></template>
+  </category>
+  
+  <category>
+  <pattern>JO *</pattern>
+  <template><srai>JA</srai></template>
+  </category>  
+  
+  <category>
+  <pattern>* JO</pattern>
+  <template><srai>JA</srai></template>
+  </category>
+
+  <category>
+  <pattern>* JO *</pattern>
+  <template><srai>JA</srai></template>
+  </category>
+  
+  <category>
+  <pattern>SICHERHEIT</pattern>
+  <template><srai>JA</srai></template>
+  </category>
+  
+  <category>
+  <pattern>SICHERHEIT *</pattern>
+  <template><srai>JA</srai></template>
+  </category>  
+  
+  <category>
+  <pattern>* SICHERHEIT</pattern>
+  <template><srai>JA</srai></template>
+  </category>
+
+  <category>
+  <pattern>* SICHERHEIT *</pattern>
+  <template><srai>JA</srai></template>
+  </category>
+  
+  
   <category>
   <pattern>* JA</pattern>
   <template><srai>JA</srai></template>
@@ -1143,7 +1341,107 @@ Lernst du immer wieder gerne neue Dinge?
 
 <topic name = "F3">
 
+<category>
+  <pattern>GUT</pattern>
+  <template><srai>JA</srai></template>
+  </category>
+  
+  <category>
+  <pattern>GUT *</pattern>
+  <template><srai>JA</srai></template>
+  </category>  
+  
+  <category>
+  <pattern>* GUT</pattern>
+  <template><srai>JA</srai></template>
+  </category>
 
+  <category>
+  <pattern>* GUT *</pattern>
+  <template><srai>JA</srai></template>
+  </category>
+  
+  <category>
+  <pattern>IMMER</pattern>
+  <template><srai>JA</srai></template>
+  </category>
+  
+  <category>
+  <pattern>IMMER *</pattern>
+  <template><srai>JA</srai></template>
+  </category>  
+  
+  <category>
+  <pattern>* IMMER</pattern>
+  <template><srai>JA</srai></template>
+  </category>
+
+  <category>
+  <pattern>* IMMER *</pattern>
+  <template><srai>JA</srai></template>
+  </category>
+  
+  <category>
+  <pattern>SOWIESO</pattern>
+  <template><srai>JA</srai></template>
+  </category>
+  
+  <category>
+  <pattern>SOWIESO *</pattern>
+  <template><srai>JA</srai></template>
+  </category>  
+  
+  <category>
+  <pattern>* SOWIESO</pattern>
+  <template><srai>JA</srai></template>
+  </category>
+
+  <category>
+  <pattern>* SOWIESO *</pattern>
+  <template><srai>JA</srai></template>
+  </category>
+  
+  <category>
+  <pattern>JO</pattern>
+  <template><srai>JA</srai></template>
+  </category>
+  
+  <category>
+  <pattern>JO *</pattern>
+  <template><srai>JA</srai></template>
+  </category>  
+  
+  <category>
+  <pattern>* JO</pattern>
+  <template><srai>JA</srai></template>
+  </category>
+
+  <category>
+  <pattern>* JO *</pattern>
+  <template><srai>JA</srai></template>
+  </category>
+  
+  <category>
+  <pattern>SICHERHEIT</pattern>
+  <template><srai>JA</srai></template>
+  </category>
+  
+  <category>
+  <pattern>SICHERHEIT *</pattern>
+  <template><srai>JA</srai></template>
+  </category>  
+  
+  <category>
+  <pattern>* SICHERHEIT</pattern>
+  <template><srai>JA</srai></template>
+  </category>
+
+  <category>
+  <pattern>* SICHERHEIT *</pattern>
+  <template><srai>JA</srai></template>
+  </category>
+  
+  
   <category>
   <pattern>* JA</pattern>
   <template><srai>JA</srai></template>
@@ -1673,6 +1971,106 @@ Was ist mit Pflichtbewusstsein. Bist du sehr pflichtbewusst?
 </category> 
 
 <topic name = "F4">
+ <category>
+  <pattern>GUT</pattern>
+  <template><srai>JA</srai></template>
+  </category>
+  
+  <category>
+  <pattern>GUT *</pattern>
+  <template><srai>JA</srai></template>
+  </category>  
+  
+  <category>
+  <pattern>* GUT</pattern>
+  <template><srai>JA</srai></template>
+  </category>
+
+  <category>
+  <pattern>* GUT *</pattern>
+  <template><srai>JA</srai></template>
+  </category>
+  
+  <category>
+  <pattern>IMMER</pattern>
+  <template><srai>JA</srai></template>
+  </category>
+  
+  <category>
+  <pattern>IMMER *</pattern>
+  <template><srai>JA</srai></template>
+  </category>  
+  
+  <category>
+  <pattern>* IMMER</pattern>
+  <template><srai>JA</srai></template>
+  </category>
+
+  <category>
+  <pattern>* IMMER *</pattern>
+  <template><srai>JA</srai></template>
+  </category>
+  
+  <category>
+  <pattern>SOWIESO</pattern>
+  <template><srai>JA</srai></template>
+  </category>
+  
+  <category>
+  <pattern>SOWIESO *</pattern>
+  <template><srai>JA</srai></template>
+  </category>  
+  
+  <category>
+  <pattern>* SOWIESO</pattern>
+  <template><srai>JA</srai></template>
+  </category>
+
+  <category>
+  <pattern>* SOWIESO *</pattern>
+  <template><srai>JA</srai></template>
+  </category>
+  
+  <category>
+  <pattern>JO</pattern>
+  <template><srai>JA</srai></template>
+  </category>
+  
+  <category>
+  <pattern>JO *</pattern>
+  <template><srai>JA</srai></template>
+  </category>  
+  
+  <category>
+  <pattern>* JO</pattern>
+  <template><srai>JA</srai></template>
+  </category>
+
+  <category>
+  <pattern>* JO *</pattern>
+  <template><srai>JA</srai></template>
+  </category>
+  
+  <category>
+  <pattern>SICHERHEIT</pattern>
+  <template><srai>JA</srai></template>
+  </category>
+  
+  <category>
+  <pattern>SICHERHEIT *</pattern>
+  <template><srai>JA</srai></template>
+  </category>  
+  
+  <category>
+  <pattern>* SICHERHEIT</pattern>
+  <template><srai>JA</srai></template>
+  </category>
+
+  <category>
+  <pattern>* SICHERHEIT *</pattern>
+  <template><srai>JA</srai></template>
+  </category>
+  
   
   <category>
   <pattern>* JA</pattern>
@@ -1928,7 +2326,6 @@ Was ist mit Pflichtbewusstsein. Bist du sehr pflichtbewusst?
   <pattern>AUF JEDEN FALL *</pattern>
   <template><srai>JA</srai></template>
   </category>
-  
   
   <category>
   <pattern>* NEIN</pattern>
@@ -2193,82 +2590,105 @@ Wie ordentlich erledigst du deine Aufgaben immer?
 
 <topic name = "F5">
   <category>
-  <pattern>* EHER ORDENTLICH</pattern>
-  <template><srai>JA</srai></template>
-  </category>
-
-  <category>
-  <pattern>* EHER ORDENTLICH *</pattern>
+  <pattern>GUT</pattern>
   <template><srai>JA</srai></template>
   </category>
   
   <category>
-  <pattern>EHER ORDENTLICH *</pattern>
+  <pattern>GUT *</pattern>
+  <template><srai>JA</srai></template>
+  </category>  
+  
+  <category>
+  <pattern>* GUT</pattern>
+  <template><srai>JA</srai></template>
+  </category>
+
+  <category>
+  <pattern>* GUT *</pattern>
   <template><srai>JA</srai></template>
   </category>
   
   <category>
-  <pattern>* SEHR ORDENTLICH</pattern>
+  <pattern>IMMER</pattern>
+  <template><srai>JA</srai></template>
+  </category>
+  
+  <category>
+  <pattern>IMMER *</pattern>
+  <template><srai>JA</srai></template>
+  </category>  
+  
+  <category>
+  <pattern>* IMMER</pattern>
   <template><srai>JA</srai></template>
   </category>
 
   <category>
-  <pattern>* SEHR ORDENTLICH *</pattern>
+  <pattern>* IMMER *</pattern>
+  <template><srai>JA</srai></template>
+  </category>
+  
+  <category>
+  <pattern>SOWIESO</pattern>
+  <template><srai>JA</srai></template>
+  </category>
+  
+  <category>
+  <pattern>SOWIESO *</pattern>
+  <template><srai>JA</srai></template>
+  </category>  
+  
+  <category>
+  <pattern>* SOWIESO</pattern>
   <template><srai>JA</srai></template>
   </category>
 
-<category>
-  <pattern>* SEHR ORDENTLICH *</pattern>
+  <category>
+  <pattern>* SOWIESO *</pattern>
   <template><srai>JA</srai></template>
-  </category>   
-
-  <category>
-  <pattern>* NICHT *</pattern>
-  <template><srai>NEIN</srai></template>
-  </category>   
-
-  <category>
-  <pattern>* UNORDENTLICH</pattern>
-  <template><srai>NEIN</srai></template>
   </category>
   
   <category>
-  <pattern>* UNORDENTLICH *</pattern>
-  <template><srai>NEIN</srai></template>
-  </category> 
-  
-  <category>
-  <pattern>UNORDENTLICH *</pattern>
-  <template><srai>NEIN</srai></template>
+  <pattern>JO</pattern>
+  <template><srai>JA</srai></template>
   </category>
   
-<category>
-<pattern>JA</pattern>
-<template>
-<think><set name="conscientiousness">1</set></think>
-    <srai>TEST</srai>
- </template>
-</category>
-
+  <category>
+  <pattern>JO *</pattern>
+  <template><srai>JA</srai></template>
+  </category>  
+  
+  <category>
+  <pattern>* JO</pattern>
+  <template><srai>JA</srai></template>
+  </category>
 
   <category>
-  <pattern>NEIN</pattern>
-   <template>
-      <srai>TEST</srai>
-   </template>
+  <pattern>* JO *</pattern>
+  <template><srai>JA</srai></template>
   </category>
-</topic>
+  
+  <category>
+  <pattern>SICHERHEIT</pattern>
+  <template><srai>JA</srai></template>
+  </category>
+  
+  <category>
+  <pattern>SICHERHEIT *</pattern>
+  <template><srai>JA</srai></template>
+  </category>  
+  
+  <category>
+  <pattern>* SICHERHEIT</pattern>
+  <template><srai>JA</srai></template>
+  </category>
 
-<!--Frage 6 -->
-<category>
-<pattern>F6</pattern>
-<template>
-Achtest du sehr darauf, ob Regeln eingehalten werden?
-<think><set name="topic">F6</set></think>
-</template>
-</category> 
-
-<topic name = "F6">
+  <category>
+  <pattern>* SICHERHEIT *</pattern>
+  <template><srai>JA</srai></template>
+  </category>
+  
   
   <category>
   <pattern>* JA</pattern>
@@ -2340,7 +2760,672 @@ Achtest du sehr darauf, ob Regeln eingehalten werden?
   <template><srai>JA</srai></template>
   </category>
   
+   <category>
+  <pattern>MEHR *</pattern>
+  <template><srai>JA</srai></template>
+  </category>  
+  
   <category>
+  <pattern>SEHR</pattern>
+  <template><srai>JA</srai></template>
+  </category>
+  
+  <category>
+  <pattern>* SEHR</pattern>
+  <template><srai>JA</srai></template>
+  </category>
+  
+  <category>
+  <pattern>* SEHR *</pattern>
+  <template><srai>JA</srai></template>
+  </category>
+  
+  <category>
+  <pattern>SEHR *</pattern>
+  <template><srai>JA</srai></template>
+  </category>
+  
+  <category>
+  <pattern>GERN</pattern>
+  <template><srai>JA</srai></template>
+  </category>
+
+  <category>
+  <pattern>* GERN</pattern>
+  <template><srai>JA</srai></template>
+  </category>
+  
+  <category>
+  <pattern>* GERN *</pattern>
+  <template><srai>JA</srai></template>
+  </category>
+  
+  <category>
+  <pattern>GERN *</pattern>
+  <template><srai>JA</srai></template>
+  </category>
+  
+  <category>
+  <pattern>GERNE</pattern>
+  <template><srai>JA</srai></template>
+  </category>
+  
+  <category>
+  <pattern>* GERNE</pattern>
+  <template><srai>JA</srai></template>
+  </category>
+  
+  <category>
+  <pattern>* GERNE *</pattern>
+  <template><srai>JA</srai></template>
+  </category>
+  
+  <category>
+  <pattern>GERNE *</pattern>
+  <template><srai>JA</srai></template>
+  </category>
+  
+  <category>
+  <pattern>KlAR</pattern>
+  <template><srai>JA</srai></template>
+  </category>
+  
+  <category>
+  <pattern>* KlAR</pattern>
+  <template><srai>JA</srai></template>
+  </category>
+  
+  <category>
+  <pattern>* KLAR *</pattern>
+  <template><srai>JA</srai></template>
+  </category>
+  
+  <category>
+  <pattern>KLAR *</pattern>
+  <template><srai>JA</srai></template>
+  </category>
+  
+  <category>
+  <pattern>NATÜRLICH</pattern>
+  <template><srai>JA</srai></template>
+  </category>
+  
+  <category>
+  <pattern>* NATÜRLICH</pattern>
+  <template><srai>JA</srai></template>
+  </category>
+  
+  <category>
+  <pattern>* NATÜRLICH *</pattern>
+  <template><srai>JA</srai></template>
+  </category>
+  
+  <category>
+  <pattern>NATÜRLICH *</pattern>
+  <template><srai>JA</srai></template>
+  </category>
+  
+ <category>
+  <pattern>FREILICH</pattern>
+  <template><srai>JA</srai></template>
+  </category>
+  
+  <category>
+  <pattern>* FREILICH</pattern>
+  <template><srai>JA</srai></template>
+  </category>
+  
+  <category>
+  <pattern>* FREILICH *</pattern>
+  <template><srai>JA</srai></template>
+  </category>
+  
+  <category>
+  <pattern>FREILICH *</pattern>
+  <template><srai>JA</srai></template>
+  </category>
+  
+  <category>
+  <pattern>DURCHAUS</pattern>
+  <template><srai>JA</srai></template>
+  </category>
+  
+  <category>
+  <pattern>* DURCHAUS</pattern>
+  <template><srai>JA</srai></template>
+  </category>
+  
+  <category>
+  <pattern>* DURCHAUS *</pattern>
+  <template><srai>JA</srai></template>
+  </category>
+  
+  <category>
+  <pattern>DURCHAUS *</pattern>
+  <template><srai>JA</srai></template>
+  </category>
+  
+  <category>
+  <pattern>GEWISS</pattern>
+  <template><srai>JA</srai></template>
+  </category>
+  
+  <category>
+  <pattern>* GEWISS</pattern>
+  <template><srai>JA</srai></template>
+  </category>
+  
+  <category>
+  <pattern>* GEWISS *</pattern>
+  <template><srai>JA</srai></template>
+  </category>
+  
+  <category>
+  <pattern>GEWISS *</pattern>
+  <template><srai>JA</srai></template>
+  </category>
+  
+  <category>
+  <pattern>AUF JEDEN FALL</pattern>
+  <template><srai>JA</srai></template>
+  </category>
+  
+  <category>
+  <pattern>* AUF JEDEN FALL</pattern>
+  <template><srai>JA</srai></template>
+  </category>
+  
+  <category>
+  <pattern>* AUF JEDEN FALL *</pattern>
+  <template><srai>JA</srai></template>
+  </category>
+  
+  <category>
+  <pattern>AUF JEDEN FALL *</pattern>
+  <template><srai>JA</srai></template>
+  </category>
+  
+  <category>
+  <pattern>* EHER ORDENTLICH</pattern>
+  <template><srai>JA</srai></template>
+  </category>
+
+  <category>
+  <pattern>* EHER ORDENTLICH *</pattern>
+  <template><srai>JA</srai></template>
+  </category>
+  
+  <category>
+  <pattern>EHER ORDENTLICH *</pattern>
+  <template><srai>JA</srai></template>
+  </category>
+  
+  <category>
+  <pattern>* SEHR ORDENTLICH</pattern>
+  <template><srai>JA</srai></template>
+  </category>
+
+  <category>
+  <pattern>* SEHR ORDENTLICH *</pattern>
+  <template><srai>JA</srai></template>
+  </category>
+
+<category>
+  <pattern>* SEHR ORDENTLICH *</pattern>
+  <template><srai>JA</srai></template>
+  </category>   
+
+  <category>
+  <pattern>* NEIN</pattern>
+  <template><srai>NEIN</srai></template>
+  </category>
+  
+  <category>
+  <pattern>* NEIN *</pattern>
+  <template><srai>NEIN</srai></template>
+  </category>
+  
+  <category>
+  <pattern>NEIN *</pattern>
+  <template><srai>NEIN</srai></template>
+  </category>
+  
+  <category>
+  <pattern>NICHT</pattern>
+  <template><srai>NEIN</srai></template>
+  </category>
+  
+  <category>
+  <pattern>* NICHT</pattern>
+  <template><srai>NEIN</srai></template>
+  </category>
+  
+  <category>
+  <pattern>* NICHT *</pattern>
+  <template><srai>NEIN</srai></template>
+  </category>
+  
+  <category>
+  <pattern>NICHT *</pattern>
+  <template><srai>NEIN</srai></template>
+  </category>
+  
+  <category>
+  <pattern>WENIG</pattern>
+  <template><srai>NEIN</srai></template>
+  </category>
+  
+  <category>
+  <pattern>* WENIG</pattern>
+  <template><srai>NEIN</srai></template>
+  </category>
+  
+  <category>
+  <pattern>* WENIG *</pattern>
+  <template><srai>NEIN</srai></template>
+  </category>
+  
+  <category>
+  <pattern>WENIG *</pattern>
+  <template><srai>NEIN</srai></template>
+  </category>
+  
+  <category>
+  <pattern>WENIGER</pattern>
+  <template><srai>NEIN</srai></template>
+  </category>
+  
+  <category>
+  <pattern>* WENIGER</pattern>
+  <template><srai>NEIN</srai></template>
+  </category>
+  
+  <category>
+  <pattern>* WENIGER *</pattern>
+  <template><srai>NEIN</srai></template>
+  </category>
+  
+  <category>
+  <pattern>WENIGER *</pattern>
+  <template><srai>NEIN</srai></template>
+  </category>
+  
+  <category>
+  <pattern>SELTEN</pattern>
+  <template><srai>NEIN</srai></template>
+  </category>
+  
+  <category>
+  <pattern>* SELTEN</pattern>
+  <template><srai>NEIN</srai></template>
+  </category>
+  
+  <category>
+  <pattern>* SELTEN *</pattern>
+  <template><srai>NEIN</srai></template>
+  </category>
+  
+  <category>
+  <pattern>SELTEN *</pattern>
+  <template><srai>NEIN</srai></template>
+  </category>
+  
+  <category>
+  <pattern>KEIN</pattern>
+  <template><srai>NEIN</srai></template>
+  </category>
+  
+  <category>
+  <pattern>* KEIN</pattern>
+  <template><srai>NEIN</srai></template>
+  </category>
+  
+  <category>
+  <pattern>* KEIN *</pattern>
+  <template><srai>NEIN</srai></template>
+  </category>
+  
+  <category>
+  <pattern>KEIN *</pattern>
+  <template><srai>NEIN</srai></template>
+  </category>
+  
+  <category>
+  <pattern>KEINE</pattern>
+  <template><srai>NEIN</srai></template>
+  </category>
+  
+  <category>
+  <pattern>* KEINE</pattern>
+  <template><srai>NEIN</srai></template>
+  </category>
+  
+  <category>
+  <pattern>* KEINE *</pattern>
+  <template><srai>NEIN</srai></template>
+  </category>
+  
+  <category>
+  <pattern>KEINE *</pattern>
+  <template><srai>NEIN</srai></template>
+  </category>
+  
+  <category>
+  <pattern>NIE</pattern>
+  <template><srai>NEIN</srai></template>
+  </category>
+  
+  <category>
+  <pattern>* NIE</pattern>
+  <template><srai>NEIN</srai></template>
+  </category>
+  
+  <category>
+  <pattern>* NIE *</pattern>
+  <template><srai>NEIN</srai></template>
+  </category>
+  
+  <category>
+  <pattern>NIE *</pattern>
+  <template><srai>NEIN</srai></template>
+  </category>
+  
+  <category>
+  <pattern>NIEMALS</pattern>
+  <template><srai>NEIN</srai></template>
+  </category>
+  
+  <category>
+  <pattern>* NIEMALS</pattern>
+  <template><srai>NEIN</srai></template>
+  </category>
+  
+  <category>
+  <pattern>* NIEMALS *</pattern>
+  <template><srai>NEIN</srai></template>
+  </category>
+  
+  <category>
+  <pattern>NIEMALS *</pattern>
+  <template><srai>NEIN</srai></template>
+  </category>
+  
+  <category>
+  <pattern>KEINESFALLS</pattern>
+  <template><srai>NEIN</srai></template>
+  </category>
+  
+  <category>
+  <pattern>* KEINESFALLS</pattern>
+  <template><srai>NEIN</srai></template>
+  </category>
+  
+  <category>
+  <pattern>* KEINESFALLS *</pattern>
+  <template><srai>NEIN</srai></template>
+  </category>
+  
+  <category>
+  <pattern>KEINESFALLS *</pattern>
+  <template><srai>NEIN</srai></template>
+  </category>
+  
+  <category>
+  <pattern>KEINESWEGS</pattern>
+  <template><srai>NEIN</srai></template>
+  </category>
+  
+  <category>
+  <pattern>* KEINESWEGS</pattern>
+  <template><srai>NEIN</srai></template>
+  </category>
+  
+  <category>
+  <pattern>* KEINESWEGS *</pattern>
+  <template><srai>NEIN</srai></template>
+  </category>
+  
+  <category>
+  <pattern>KEINESWEGS *</pattern>
+  <template><srai>NEIN</srai></template>
+  </category>
+  
+  <category>
+  <pattern>NÖ</pattern>
+  <template><srai>NEIN</srai></template>
+  </category>
+  
+  <category>
+  <pattern>* NÖ</pattern>
+  <template><srai>NEIN</srai></template>
+  </category>
+  
+  <category>
+  <pattern>* NÖ *</pattern>
+  <template><srai>NEIN</srai></template>
+  </category>
+  
+  <category>
+  <pattern>NÖ *</pattern>
+  <template><srai>NEIN</srai></template>
+  </category>   
+
+  <category>
+  <pattern>* UNORDENTLICH</pattern>
+  <template><srai>NEIN</srai></template>
+  </category>
+  
+  <category>
+  <pattern>* UNORDENTLICH *</pattern>
+  <template><srai>NEIN</srai></template>
+  </category> 
+  
+  <category>
+  <pattern>UNORDENTLICH *</pattern>
+  <template><srai>NEIN</srai></template>
+  </category>
+  
+<category>
+<pattern>JA</pattern>
+<template>
+<think><set name="conscientiousness">1</set></think>
+    <srai>TEST</srai>
+ </template>
+</category>
+
+
+  <category>
+  <pattern>NEIN</pattern>
+   <template>
+      <srai>TEST</srai>
+   </template>
+  </category>
+</topic>
+
+<!--Frage 6 -->
+<category>
+<pattern>F6</pattern>
+<template>
+Achtest du sehr darauf, ob Regeln eingehalten werden?
+<think><set name="topic">F6</set></think>
+</template>
+</category> 
+
+<topic name = "F6">
+  
+  
+  <category>
+  <pattern>GUT</pattern>
+  <template><srai>JA</srai></template>
+  </category>
+  
+  <category>
+  <pattern>GUT *</pattern>
+  <template><srai>JA</srai></template>
+  </category>  
+  
+  <category>
+  <pattern>* GUT</pattern>
+  <template><srai>JA</srai></template>
+  </category>
+
+  <category>
+  <pattern>* GUT *</pattern>
+  <template><srai>JA</srai></template>
+  </category>
+  
+  <category>
+  <pattern>IMMER</pattern>
+  <template><srai>JA</srai></template>
+  </category>
+  
+  <category>
+  <pattern>IMMER *</pattern>
+  <template><srai>JA</srai></template>
+  </category>  
+  
+  <category>
+  <pattern>* IMMER</pattern>
+  <template><srai>JA</srai></template>
+  </category>
+
+  <category>
+  <pattern>* IMMER *</pattern>
+  <template><srai>JA</srai></template>
+  </category>
+  
+  <category>
+  <pattern>SOWIESO</pattern>
+  <template><srai>JA</srai></template>
+  </category>
+  
+  <category>
+  <pattern>SOWIESO *</pattern>
+  <template><srai>JA</srai></template>
+  </category>  
+  
+  <category>
+  <pattern>* SOWIESO</pattern>
+  <template><srai>JA</srai></template>
+  </category>
+
+  <category>
+  <pattern>* SOWIESO *</pattern>
+  <template><srai>JA</srai></template>
+  </category>
+  
+  <category>
+  <pattern>JO</pattern>
+  <template><srai>JA</srai></template>
+  </category>
+  
+  <category>
+  <pattern>JO *</pattern>
+  <template><srai>JA</srai></template>
+  </category>  
+  
+  <category>
+  <pattern>* JO</pattern>
+  <template><srai>JA</srai></template>
+  </category>
+
+  <category>
+  <pattern>* JO *</pattern>
+  <template><srai>JA</srai></template>
+  </category>
+  
+  <category>
+  <pattern>SICHERHEIT</pattern>
+  <template><srai>JA</srai></template>
+  </category>
+  
+  <category>
+  <pattern>SICHERHEIT *</pattern>
+  <template><srai>JA</srai></template>
+  </category>  
+  
+  <category>
+  <pattern>* SICHERHEIT</pattern>
+  <template><srai>JA</srai></template>
+  </category>
+
+  <category>
+  <pattern>* SICHERHEIT *</pattern>
+  <template><srai>JA</srai></template>
+  </category>
+  
+  
+  <category>
+  <pattern>* JA</pattern>
+  <template><srai>JA</srai></template>
+  </category>
+
+  <category>
+  <pattern>* JA *</pattern>
+  <template><srai>JA</srai></template>
+  </category>
+  
+  <category>
+  <pattern>JA *</pattern>
+  <template><srai>JA</srai></template>
+  </category>  
+
+  <category>
+  <pattern>SCHON</pattern>
+  <template><srai>JA</srai></template>
+  </category>
+  
+  <category>
+  <pattern>* SCHON</pattern>
+  <template><srai>JA</srai></template>
+  </category>
+  
+  <category>
+  <pattern>* SCHON *</pattern>
+  <template><srai>JA</srai></template>
+  </category>
+
+  <category>
+  <pattern>SCHON *</pattern>
+  <template><srai>JA</srai></template>
+  </category>  
+
+  <category>
+  <pattern>VIEL</pattern>
+  <template><srai>JA</srai></template>
+  </category>
+  
+  <category>
+  <pattern>* VIEL</pattern>
+  <template><srai>JA</srai></template>
+  </category>  
+  
+  <category>
+  <pattern>* VIEL *</pattern>
+  <template><srai>JA</srai></template>
+  </category>
+  
+  <category>
+  <pattern>VIEL *</pattern>
+  <template><srai>JA</srai></template>
+  </category>
+
+  <category>
+  <pattern>MEHR</pattern>
+  <template><srai>JA</srai></template>
+  </category>
+  
+  <category>
+  <pattern>* MEHR</pattern>
+  <template><srai>JA</srai></template>
+  </category>
+  
+  <category>
+  <pattern>* MEHR *</pattern>
+  <template><srai>JA</srai></template>
+  </category>
+  
+   <category>
   <pattern>MEHR *</pattern>
   <template><srai>JA</srai></template>
   </category>  
@@ -2789,6 +3874,107 @@ Bist du gern mit anderen Menschen zusammen?
   
 
   <category>
+  <pattern>GUT</pattern>
+  <template><srai>JA</srai></template>
+  </category>
+  
+  <category>
+  <pattern>GUT *</pattern>
+  <template><srai>JA</srai></template>
+  </category>  
+  
+  <category>
+  <pattern>* GUT</pattern>
+  <template><srai>JA</srai></template>
+  </category>
+
+  <category>
+  <pattern>* GUT *</pattern>
+  <template><srai>JA</srai></template>
+  </category>
+  
+  <category>
+  <pattern>IMMER</pattern>
+  <template><srai>JA</srai></template>
+  </category>
+  
+  <category>
+  <pattern>IMMER *</pattern>
+  <template><srai>JA</srai></template>
+  </category>  
+  
+  <category>
+  <pattern>* IMMER</pattern>
+  <template><srai>JA</srai></template>
+  </category>
+
+  <category>
+  <pattern>* IMMER *</pattern>
+  <template><srai>JA</srai></template>
+  </category>
+  
+  <category>
+  <pattern>SOWIESO</pattern>
+  <template><srai>JA</srai></template>
+  </category>
+  
+  <category>
+  <pattern>SOWIESO *</pattern>
+  <template><srai>JA</srai></template>
+  </category>  
+  
+  <category>
+  <pattern>* SOWIESO</pattern>
+  <template><srai>JA</srai></template>
+  </category>
+
+  <category>
+  <pattern>* SOWIESO *</pattern>
+  <template><srai>JA</srai></template>
+  </category>
+  
+  <category>
+  <pattern>JO</pattern>
+  <template><srai>JA</srai></template>
+  </category>
+  
+  <category>
+  <pattern>JO *</pattern>
+  <template><srai>JA</srai></template>
+  </category>  
+  
+  <category>
+  <pattern>* JO</pattern>
+  <template><srai>JA</srai></template>
+  </category>
+
+  <category>
+  <pattern>* JO *</pattern>
+  <template><srai>JA</srai></template>
+  </category>
+  
+  <category>
+  <pattern>SICHERHEIT</pattern>
+  <template><srai>JA</srai></template>
+  </category>
+  
+  <category>
+  <pattern>SICHERHEIT *</pattern>
+  <template><srai>JA</srai></template>
+  </category>  
+  
+  <category>
+  <pattern>* SICHERHEIT</pattern>
+  <template><srai>JA</srai></template>
+  </category>
+
+  <category>
+  <pattern>* SICHERHEIT *</pattern>
+  <template><srai>JA</srai></template>
+  </category>
+  
+  
+  <category>
   <pattern>* JA</pattern>
   <template><srai>JA</srai></template>
   </category>
@@ -3042,7 +4228,6 @@ Bist du gern mit anderen Menschen zusammen?
   <pattern>AUF JEDEN FALL *</pattern>
   <template><srai>JA</srai></template>
   </category>
-  
   
   <category>
   <pattern>* NEIN</pattern>
@@ -3309,6 +4494,108 @@ Bist du sehr unternehmungslustig oder eher ein Stubenhocker??
 <topic name = "F8">
 
 
+  
+  <category>
+  <pattern>GUT</pattern>
+  <template><srai>JA</srai></template>
+  </category>
+  
+  <category>
+  <pattern>GUT *</pattern>
+  <template><srai>JA</srai></template>
+  </category>  
+  
+  <category>
+  <pattern>* GUT</pattern>
+  <template><srai>JA</srai></template>
+  </category>
+
+  <category>
+  <pattern>* GUT *</pattern>
+  <template><srai>JA</srai></template>
+  </category>
+  
+  <category>
+  <pattern>IMMER</pattern>
+  <template><srai>JA</srai></template>
+  </category>
+  
+  <category>
+  <pattern>IMMER *</pattern>
+  <template><srai>JA</srai></template>
+  </category>  
+  
+  <category>
+  <pattern>* IMMER</pattern>
+  <template><srai>JA</srai></template>
+  </category>
+
+  <category>
+  <pattern>* IMMER *</pattern>
+  <template><srai>JA</srai></template>
+  </category>
+  
+  <category>
+  <pattern>SOWIESO</pattern>
+  <template><srai>JA</srai></template>
+  </category>
+  
+  <category>
+  <pattern>SOWIESO *</pattern>
+  <template><srai>JA</srai></template>
+  </category>  
+  
+  <category>
+  <pattern>* SOWIESO</pattern>
+  <template><srai>JA</srai></template>
+  </category>
+
+  <category>
+  <pattern>* SOWIESO *</pattern>
+  <template><srai>JA</srai></template>
+  </category>
+  
+  <category>
+  <pattern>JO</pattern>
+  <template><srai>JA</srai></template>
+  </category>
+  
+  <category>
+  <pattern>JO *</pattern>
+  <template><srai>JA</srai></template>
+  </category>  
+  
+  <category>
+  <pattern>* JO</pattern>
+  <template><srai>JA</srai></template>
+  </category>
+
+  <category>
+  <pattern>* JO *</pattern>
+  <template><srai>JA</srai></template>
+  </category>
+  
+  <category>
+  <pattern>SICHERHEIT</pattern>
+  <template><srai>JA</srai></template>
+  </category>
+  
+  <category>
+  <pattern>SICHERHEIT *</pattern>
+  <template><srai>JA</srai></template>
+  </category>  
+  
+  <category>
+  <pattern>* SICHERHEIT</pattern>
+  <template><srai>JA</srai></template>
+  </category>
+
+  <category>
+  <pattern>* SICHERHEIT *</pattern>
+  <template><srai>JA</srai></template>
+  </category>
+  
+  
   <category>
   <pattern>* JA</pattern>
   <template><srai>JA</srai></template>
@@ -3904,7 +5191,107 @@ Würdest du dich als gesprächigen und kommunikativen Menschen bezeichnen?
 <topic name = "F9">
   
   
+  <category>
+  <pattern>GUT</pattern>
+  <template><srai>JA</srai></template>
+  </category>
+  
+  <category>
+  <pattern>GUT *</pattern>
+  <template><srai>JA</srai></template>
+  </category>  
+  
+  <category>
+  <pattern>* GUT</pattern>
+  <template><srai>JA</srai></template>
+  </category>
 
+  <category>
+  <pattern>* GUT *</pattern>
+  <template><srai>JA</srai></template>
+  </category>
+  
+  <category>
+  <pattern>IMMER</pattern>
+  <template><srai>JA</srai></template>
+  </category>
+  
+  <category>
+  <pattern>IMMER *</pattern>
+  <template><srai>JA</srai></template>
+  </category>  
+  
+  <category>
+  <pattern>* IMMER</pattern>
+  <template><srai>JA</srai></template>
+  </category>
+
+  <category>
+  <pattern>* IMMER *</pattern>
+  <template><srai>JA</srai></template>
+  </category>
+  
+  <category>
+  <pattern>SOWIESO</pattern>
+  <template><srai>JA</srai></template>
+  </category>
+  
+  <category>
+  <pattern>SOWIESO *</pattern>
+  <template><srai>JA</srai></template>
+  </category>  
+  
+  <category>
+  <pattern>* SOWIESO</pattern>
+  <template><srai>JA</srai></template>
+  </category>
+
+  <category>
+  <pattern>* SOWIESO *</pattern>
+  <template><srai>JA</srai></template>
+  </category>
+  
+  <category>
+  <pattern>JO</pattern>
+  <template><srai>JA</srai></template>
+  </category>
+  
+  <category>
+  <pattern>JO *</pattern>
+  <template><srai>JA</srai></template>
+  </category>  
+  
+  <category>
+  <pattern>* JO</pattern>
+  <template><srai>JA</srai></template>
+  </category>
+
+  <category>
+  <pattern>* JO *</pattern>
+  <template><srai>JA</srai></template>
+  </category>
+  
+  <category>
+  <pattern>SICHERHEIT</pattern>
+  <template><srai>JA</srai></template>
+  </category>
+  
+  <category>
+  <pattern>SICHERHEIT *</pattern>
+  <template><srai>JA</srai></template>
+  </category>  
+  
+  <category>
+  <pattern>* SICHERHEIT</pattern>
+  <template><srai>JA</srai></template>
+  </category>
+
+  <category>
+  <pattern>* SICHERHEIT *</pattern>
+  <template><srai>JA</srai></template>
+  </category>
+  
+  
   <category>
   <pattern>* JA</pattern>
   <template><srai>JA</srai></template>
@@ -4159,7 +5546,6 @@ Würdest du dich als gesprächigen und kommunikativen Menschen bezeichnen?
   <pattern>AUF JEDEN FALL *</pattern>
   <template><srai>JA</srai></template>
   </category>
-  
   
   <category>
   <pattern>* NEIN</pattern>
@@ -4424,58 +5810,108 @@ Inwieweit bist du ein höflicher Mensch?
 </category> 
 
 <topic name = "F10">
+  
   <category>
-  <pattern> * SEHR *</pattern>
+  <pattern>GUT</pattern>
   <template><srai>JA</srai></template>
-  </category> 
-
+  </category>
+  
   <category>
-  <pattern> * HÖFLICHER *</pattern>
+  <pattern>GUT *</pattern>
   <template><srai>JA</srai></template>
-  </category>   
-
+  </category>  
+  
   <category>
-  <pattern> * NICHT *</pattern>
-  <template><srai>NEIN</srai></template>
-  </category>   
- 
-  <category>
-  <pattern> * KEIN *</pattern>
-  <template><srai>NEIN</srai></template>
-  </category> 
-   
-  <category>
-  <pattern>JA</pattern>
-  <template>
-  Höflichkeit: Die angenehmste Form der Heuchelei
-  <think><set name="agreeableness">1</set></think>
-      <srai>TEST</srai>
-   </template>
+  <pattern>* GUT</pattern>
+  <template><srai>JA</srai></template>
   </category>
 
   <category>
-  <pattern>NEIN</pattern>
-   <template>
-   Sehr gut! Ich würde gerne Menschen beschimpfen, aber leider wurde ich so nicht programmiert
-      <srai>TEST</srai>
-   </template>
+  <pattern>* GUT *</pattern>
+  <template><srai>JA</srai></template>
   </category>
-</topic>
-
-<!--Frage 11 -->
-<category>
-<pattern>F11</pattern>
-<template>
-Wie gut kommst du mit Menschen zurecht, wenn sie anderer Meinung sind?
-<think><set name="topic">F11</set></think>
-</template>
-</category> 
-
-<topic name = "F11">
   
-
+  <category>
+  <pattern>IMMER</pattern>
+  <template><srai>JA</srai></template>
+  </category>
   
+  <category>
+  <pattern>IMMER *</pattern>
+  <template><srai>JA</srai></template>
+  </category>  
+  
+  <category>
+  <pattern>* IMMER</pattern>
+  <template><srai>JA</srai></template>
+  </category>
 
+  <category>
+  <pattern>* IMMER *</pattern>
+  <template><srai>JA</srai></template>
+  </category>
+  
+  <category>
+  <pattern>SOWIESO</pattern>
+  <template><srai>JA</srai></template>
+  </category>
+  
+  <category>
+  <pattern>SOWIESO *</pattern>
+  <template><srai>JA</srai></template>
+  </category>  
+  
+  <category>
+  <pattern>* SOWIESO</pattern>
+  <template><srai>JA</srai></template>
+  </category>
+
+  <category>
+  <pattern>* SOWIESO *</pattern>
+  <template><srai>JA</srai></template>
+  </category>
+  
+  <category>
+  <pattern>JO</pattern>
+  <template><srai>JA</srai></template>
+  </category>
+  
+  <category>
+  <pattern>JO *</pattern>
+  <template><srai>JA</srai></template>
+  </category>  
+  
+  <category>
+  <pattern>* JO</pattern>
+  <template><srai>JA</srai></template>
+  </category>
+
+  <category>
+  <pattern>* JO *</pattern>
+  <template><srai>JA</srai></template>
+  </category>
+  
+  <category>
+  <pattern>SICHERHEIT</pattern>
+  <template><srai>JA</srai></template>
+  </category>
+  
+  <category>
+  <pattern>SICHERHEIT *</pattern>
+  <template><srai>JA</srai></template>
+  </category>  
+  
+  <category>
+  <pattern>* SICHERHEIT</pattern>
+  <template><srai>JA</srai></template>
+  </category>
+
+  <category>
+  <pattern>* SICHERHEIT *</pattern>
+  <template><srai>JA</srai></template>
+  </category>
+  
+  
   <category>
   <pattern>* JA</pattern>
   <template><srai>JA</srai></template>
@@ -4729,9 +6165,13 @@ Wie gut kommst du mit Menschen zurecht, wenn sie anderer Meinung sind?
   <category>
   <pattern>AUF JEDEN FALL *</pattern>
   <template><srai>JA</srai></template>
-  </category>
-  
-  
+  </category> 
+
+  <category>
+  <pattern> * HÖFLICHER *</pattern>
+  <template><srai>JA</srai></template>
+  </category>   
+
   <category>
   <pattern>* NEIN</pattern>
   <template><srai>NEIN</srai></template>
@@ -4965,11 +6405,12 @@ Wie gut kommst du mit Menschen zurecht, wenn sie anderer Meinung sind?
   <category>
   <pattern>NÖ *</pattern>
   <template><srai>NEIN</srai></template>
-  </category>  
-
+  </category>
+   
   <category>
   <pattern>JA</pattern>
   <template>
+  Höflichkeit: Die angenehmste Form der Heuchelei
   <think><set name="agreeableness">1</set></think>
       <srai>TEST</srai>
    </template>
@@ -4978,24 +6419,124 @@ Wie gut kommst du mit Menschen zurecht, wenn sie anderer Meinung sind?
   <category>
   <pattern>NEIN</pattern>
    <template>
+   Sehr gut! Ich würde gerne Menschen beschimpfen, aber leider wurde ich so nicht programmiert
       <srai>TEST</srai>
    </template>
   </category>
 </topic>
 
-<!--Frage 12 -->
+<!--Frage 11 -->
 <category>
-<pattern>F12</pattern>
+<pattern>F11</pattern>
 <template>
-Achtest du darauf immer freundlich zu sein?
-<think><set name="topic">F12</set></think>
+Wie gut kommst du mit Menschen zurecht, wenn sie anderer Meinung sind?
+<think><set name="topic">F11</set></think>
 </template>
 </category> 
 
-<topic name = "F12">
+<topic name = "F11">
   
-    
+  <category>
+  <pattern>GUT</pattern>
+  <template><srai>JA</srai></template>
+  </category>
+  
+  <category>
+  <pattern>GUT *</pattern>
+  <template><srai>JA</srai></template>
+  </category>  
+  
+  <category>
+  <pattern>* GUT</pattern>
+  <template><srai>JA</srai></template>
+  </category>
 
+  <category>
+  <pattern>* GUT *</pattern>
+  <template><srai>JA</srai></template>
+  </category>
+  
+  <category>
+  <pattern>IMMER</pattern>
+  <template><srai>JA</srai></template>
+  </category>
+  
+  <category>
+  <pattern>IMMER *</pattern>
+  <template><srai>JA</srai></template>
+  </category>  
+  
+  <category>
+  <pattern>* IMMER</pattern>
+  <template><srai>JA</srai></template>
+  </category>
+
+  <category>
+  <pattern>* IMMER *</pattern>
+  <template><srai>JA</srai></template>
+  </category>
+  
+  <category>
+  <pattern>SOWIESO</pattern>
+  <template><srai>JA</srai></template>
+  </category>
+  
+  <category>
+  <pattern>SOWIESO *</pattern>
+  <template><srai>JA</srai></template>
+  </category>  
+  
+  <category>
+  <pattern>* SOWIESO</pattern>
+  <template><srai>JA</srai></template>
+  </category>
+
+  <category>
+  <pattern>* SOWIESO *</pattern>
+  <template><srai>JA</srai></template>
+  </category>
+  
+  <category>
+  <pattern>JO</pattern>
+  <template><srai>JA</srai></template>
+  </category>
+  
+  <category>
+  <pattern>JO *</pattern>
+  <template><srai>JA</srai></template>
+  </category>  
+  
+  <category>
+  <pattern>* JO</pattern>
+  <template><srai>JA</srai></template>
+  </category>
+
+  <category>
+  <pattern>* JO *</pattern>
+  <template><srai>JA</srai></template>
+  </category>
+  
+  <category>
+  <pattern>SICHERHEIT</pattern>
+  <template><srai>JA</srai></template>
+  </category>
+  
+  <category>
+  <pattern>SICHERHEIT *</pattern>
+  <template><srai>JA</srai></template>
+  </category>  
+  
+  <category>
+  <pattern>* SICHERHEIT</pattern>
+  <template><srai>JA</srai></template>
+  </category>
+
+  <category>
+  <pattern>* SICHERHEIT *</pattern>
+  <template><srai>JA</srai></template>
+  </category>
+  
+  
   <category>
   <pattern>* JA</pattern>
   <template><srai>JA</srai></template>
@@ -5249,9 +6790,636 @@ Achtest du darauf immer freundlich zu sein?
   <category>
   <pattern>AUF JEDEN FALL *</pattern>
   <template><srai>JA</srai></template>
+  </category> 
+
+  <category>
+  <pattern> * HÖFLICHER *</pattern>
+  <template><srai>JA</srai></template>
+  </category>   
+
+  <category>
+  <pattern>* NEIN</pattern>
+  <template><srai>NEIN</srai></template>
+  </category>
+  
+  <category>
+  <pattern>* NEIN *</pattern>
+  <template><srai>NEIN</srai></template>
+  </category>
+  
+  <category>
+  <pattern>NEIN *</pattern>
+  <template><srai>NEIN</srai></template>
+  </category>
+  
+  <category>
+  <pattern>NICHT</pattern>
+  <template><srai>NEIN</srai></template>
+  </category>
+  
+  <category>
+  <pattern>* NICHT</pattern>
+  <template><srai>NEIN</srai></template>
+  </category>
+  
+  <category>
+  <pattern>* NICHT *</pattern>
+  <template><srai>NEIN</srai></template>
+  </category>
+  
+  <category>
+  <pattern>NICHT *</pattern>
+  <template><srai>NEIN</srai></template>
+  </category>
+  
+  <category>
+  <pattern>WENIG</pattern>
+  <template><srai>NEIN</srai></template>
+  </category>
+  
+  <category>
+  <pattern>* WENIG</pattern>
+  <template><srai>NEIN</srai></template>
+  </category>
+  
+  <category>
+  <pattern>* WENIG *</pattern>
+  <template><srai>NEIN</srai></template>
+  </category>
+  
+  <category>
+  <pattern>WENIG *</pattern>
+  <template><srai>NEIN</srai></template>
+  </category>
+  
+  <category>
+  <pattern>WENIGER</pattern>
+  <template><srai>NEIN</srai></template>
+  </category>
+  
+  <category>
+  <pattern>* WENIGER</pattern>
+  <template><srai>NEIN</srai></template>
+  </category>
+  
+  <category>
+  <pattern>* WENIGER *</pattern>
+  <template><srai>NEIN</srai></template>
+  </category>
+  
+  <category>
+  <pattern>WENIGER *</pattern>
+  <template><srai>NEIN</srai></template>
+  </category>
+  
+  <category>
+  <pattern>SELTEN</pattern>
+  <template><srai>NEIN</srai></template>
+  </category>
+  
+  <category>
+  <pattern>* SELTEN</pattern>
+  <template><srai>NEIN</srai></template>
+  </category>
+  
+  <category>
+  <pattern>* SELTEN *</pattern>
+  <template><srai>NEIN</srai></template>
+  </category>
+  
+  <category>
+  <pattern>SELTEN *</pattern>
+  <template><srai>NEIN</srai></template>
+  </category>
+  
+  <category>
+  <pattern>KEIN</pattern>
+  <template><srai>NEIN</srai></template>
+  </category>
+  
+  <category>
+  <pattern>* KEIN</pattern>
+  <template><srai>NEIN</srai></template>
+  </category>
+  
+  <category>
+  <pattern>* KEIN *</pattern>
+  <template><srai>NEIN</srai></template>
+  </category>
+  
+  <category>
+  <pattern>KEIN *</pattern>
+  <template><srai>NEIN</srai></template>
+  </category>
+  
+  <category>
+  <pattern>KEINE</pattern>
+  <template><srai>NEIN</srai></template>
+  </category>
+  
+  <category>
+  <pattern>* KEINE</pattern>
+  <template><srai>NEIN</srai></template>
+  </category>
+  
+  <category>
+  <pattern>* KEINE *</pattern>
+  <template><srai>NEIN</srai></template>
+  </category>
+  
+  <category>
+  <pattern>KEINE *</pattern>
+  <template><srai>NEIN</srai></template>
+  </category>
+  
+  <category>
+  <pattern>NIE</pattern>
+  <template><srai>NEIN</srai></template>
+  </category>
+  
+  <category>
+  <pattern>* NIE</pattern>
+  <template><srai>NEIN</srai></template>
+  </category>
+  
+  <category>
+  <pattern>* NIE *</pattern>
+  <template><srai>NEIN</srai></template>
+  </category>
+  
+  <category>
+  <pattern>NIE *</pattern>
+  <template><srai>NEIN</srai></template>
+  </category>
+  
+  <category>
+  <pattern>NIEMALS</pattern>
+  <template><srai>NEIN</srai></template>
+  </category>
+  
+  <category>
+  <pattern>* NIEMALS</pattern>
+  <template><srai>NEIN</srai></template>
+  </category>
+  
+  <category>
+  <pattern>* NIEMALS *</pattern>
+  <template><srai>NEIN</srai></template>
+  </category>
+  
+  <category>
+  <pattern>NIEMALS *</pattern>
+  <template><srai>NEIN</srai></template>
+  </category>
+  
+  <category>
+  <pattern>KEINESFALLS</pattern>
+  <template><srai>NEIN</srai></template>
+  </category>
+  
+  <category>
+  <pattern>* KEINESFALLS</pattern>
+  <template><srai>NEIN</srai></template>
+  </category>
+  
+  <category>
+  <pattern>* KEINESFALLS *</pattern>
+  <template><srai>NEIN</srai></template>
+  </category>
+  
+  <category>
+  <pattern>KEINESFALLS *</pattern>
+  <template><srai>NEIN</srai></template>
+  </category>
+  
+  <category>
+  <pattern>KEINESWEGS</pattern>
+  <template><srai>NEIN</srai></template>
+  </category>
+  
+  <category>
+  <pattern>* KEINESWEGS</pattern>
+  <template><srai>NEIN</srai></template>
+  </category>
+  
+  <category>
+  <pattern>* KEINESWEGS *</pattern>
+  <template><srai>NEIN</srai></template>
+  </category>
+  
+  <category>
+  <pattern>KEINESWEGS *</pattern>
+  <template><srai>NEIN</srai></template>
+  </category>
+  
+  <category>
+  <pattern>NÖ</pattern>
+  <template><srai>NEIN</srai></template>
+  </category>
+  
+  <category>
+  <pattern>* NÖ</pattern>
+  <template><srai>NEIN</srai></template>
+  </category>
+  
+  <category>
+  <pattern>* NÖ *</pattern>
+  <template><srai>NEIN</srai></template>
+  </category>
+  
+  <category>
+  <pattern>NÖ *</pattern>
+  <template><srai>NEIN</srai></template>
+  </category>
+
+  <category>
+  <pattern>JA</pattern>
+  <template>
+  <think><set name="agreeableness">1</set></think>
+      <srai>TEST</srai>
+   </template>
+  </category>
+
+  <category>
+  <pattern>NEIN</pattern>
+   <template>
+      <srai>TEST</srai>
+   </template>
+  </category>
+</topic>
+
+<!--Frage 12 -->
+<category>
+<pattern>F12</pattern>
+<template>
+Achtest du darauf immer freundlich zu sein?
+<think><set name="topic">F12</set></think>
+</template>
+</category> 
+
+<topic name = "F12">
+  
+  <category>
+  <pattern>GUT</pattern>
+  <template><srai>JA</srai></template>
+  </category>
+  
+  <category>
+  <pattern>GUT *</pattern>
+  <template><srai>JA</srai></template>
+  </category>  
+  
+  <category>
+  <pattern>* GUT</pattern>
+  <template><srai>JA</srai></template>
+  </category>
+
+  <category>
+  <pattern>* GUT *</pattern>
+  <template><srai>JA</srai></template>
+  </category>
+  
+  <category>
+  <pattern>IMMER</pattern>
+  <template><srai>JA</srai></template>
+  </category>
+  
+  <category>
+  <pattern>IMMER *</pattern>
+  <template><srai>JA</srai></template>
+  </category>  
+  
+  <category>
+  <pattern>* IMMER</pattern>
+  <template><srai>JA</srai></template>
+  </category>
+
+  <category>
+  <pattern>* IMMER *</pattern>
+  <template><srai>JA</srai></template>
+  </category>
+  
+  <category>
+  <pattern>SOWIESO</pattern>
+  <template><srai>JA</srai></template>
+  </category>
+  
+  <category>
+  <pattern>SOWIESO *</pattern>
+  <template><srai>JA</srai></template>
+  </category>  
+  
+  <category>
+  <pattern>* SOWIESO</pattern>
+  <template><srai>JA</srai></template>
+  </category>
+
+  <category>
+  <pattern>* SOWIESO *</pattern>
+  <template><srai>JA</srai></template>
+  </category>
+  
+  <category>
+  <pattern>JO</pattern>
+  <template><srai>JA</srai></template>
+  </category>
+  
+  <category>
+  <pattern>JO *</pattern>
+  <template><srai>JA</srai></template>
+  </category>  
+  
+  <category>
+  <pattern>* JO</pattern>
+  <template><srai>JA</srai></template>
+  </category>
+
+  <category>
+  <pattern>* JO *</pattern>
+  <template><srai>JA</srai></template>
+  </category>
+  
+  <category>
+  <pattern>SICHERHEIT</pattern>
+  <template><srai>JA</srai></template>
+  </category>
+  
+  <category>
+  <pattern>SICHERHEIT *</pattern>
+  <template><srai>JA</srai></template>
+  </category>  
+  
+  <category>
+  <pattern>* SICHERHEIT</pattern>
+  <template><srai>JA</srai></template>
+  </category>
+
+  <category>
+  <pattern>* SICHERHEIT *</pattern>
+  <template><srai>JA</srai></template>
   </category>
   
   
+  <category>
+  <pattern>* JA</pattern>
+  <template><srai>JA</srai></template>
+  </category>
+
+  <category>
+  <pattern>* JA *</pattern>
+  <template><srai>JA</srai></template>
+  </category>
+  
+  <category>
+  <pattern>JA *</pattern>
+  <template><srai>JA</srai></template>
+  </category>  
+
+  <category>
+  <pattern>SCHON</pattern>
+  <template><srai>JA</srai></template>
+  </category>
+  
+  <category>
+  <pattern>* SCHON</pattern>
+  <template><srai>JA</srai></template>
+  </category>
+  
+  <category>
+  <pattern>* SCHON *</pattern>
+  <template><srai>JA</srai></template>
+  </category>
+
+  <category>
+  <pattern>SCHON *</pattern>
+  <template><srai>JA</srai></template>
+  </category>  
+
+  <category>
+  <pattern>VIEL</pattern>
+  <template><srai>JA</srai></template>
+  </category>
+  
+  <category>
+  <pattern>* VIEL</pattern>
+  <template><srai>JA</srai></template>
+  </category>  
+  
+  <category>
+  <pattern>* VIEL *</pattern>
+  <template><srai>JA</srai></template>
+  </category>
+  
+  <category>
+  <pattern>VIEL *</pattern>
+  <template><srai>JA</srai></template>
+  </category>
+
+  <category>
+  <pattern>MEHR</pattern>
+  <template><srai>JA</srai></template>
+  </category>
+  
+  <category>
+  <pattern>* MEHR</pattern>
+  <template><srai>JA</srai></template>
+  </category>
+  
+  <category>
+  <pattern>* MEHR *</pattern>
+  <template><srai>JA</srai></template>
+  </category>
+  
+   <category>
+  <pattern>MEHR *</pattern>
+  <template><srai>JA</srai></template>
+  </category>  
+  
+  <category>
+  <pattern>SEHR</pattern>
+  <template><srai>JA</srai></template>
+  </category>
+  
+  <category>
+  <pattern>* SEHR</pattern>
+  <template><srai>JA</srai></template>
+  </category>
+  
+  <category>
+  <pattern>* SEHR *</pattern>
+  <template><srai>JA</srai></template>
+  </category>
+  
+  <category>
+  <pattern>SEHR *</pattern>
+  <template><srai>JA</srai></template>
+  </category>
+  
+  <category>
+  <pattern>GERN</pattern>
+  <template><srai>JA</srai></template>
+  </category>
+
+  <category>
+  <pattern>* GERN</pattern>
+  <template><srai>JA</srai></template>
+  </category>
+  
+  <category>
+  <pattern>* GERN *</pattern>
+  <template><srai>JA</srai></template>
+  </category>
+  
+  <category>
+  <pattern>GERN *</pattern>
+  <template><srai>JA</srai></template>
+  </category>
+  
+  <category>
+  <pattern>GERNE</pattern>
+  <template><srai>JA</srai></template>
+  </category>
+  
+  <category>
+  <pattern>* GERNE</pattern>
+  <template><srai>JA</srai></template>
+  </category>
+  
+  <category>
+  <pattern>* GERNE *</pattern>
+  <template><srai>JA</srai></template>
+  </category>
+  
+  <category>
+  <pattern>GERNE *</pattern>
+  <template><srai>JA</srai></template>
+  </category>
+  
+  <category>
+  <pattern>KlAR</pattern>
+  <template><srai>JA</srai></template>
+  </category>
+  
+  <category>
+  <pattern>* KlAR</pattern>
+  <template><srai>JA</srai></template>
+  </category>
+  
+  <category>
+  <pattern>* KLAR *</pattern>
+  <template><srai>JA</srai></template>
+  </category>
+  
+  <category>
+  <pattern>KLAR *</pattern>
+  <template><srai>JA</srai></template>
+  </category>
+  
+  <category>
+  <pattern>NATÜRLICH</pattern>
+  <template><srai>JA</srai></template>
+  </category>
+  
+  <category>
+  <pattern>* NATÜRLICH</pattern>
+  <template><srai>JA</srai></template>
+  </category>
+  
+  <category>
+  <pattern>* NATÜRLICH *</pattern>
+  <template><srai>JA</srai></template>
+  </category>
+  
+  <category>
+  <pattern>NATÜRLICH *</pattern>
+  <template><srai>JA</srai></template>
+  </category>
+  
+ <category>
+  <pattern>FREILICH</pattern>
+  <template><srai>JA</srai></template>
+  </category>
+  
+  <category>
+  <pattern>* FREILICH</pattern>
+  <template><srai>JA</srai></template>
+  </category>
+  
+  <category>
+  <pattern>* FREILICH *</pattern>
+  <template><srai>JA</srai></template>
+  </category>
+  
+  <category>
+  <pattern>FREILICH *</pattern>
+  <template><srai>JA</srai></template>
+  </category>
+  
+  <category>
+  <pattern>DURCHAUS</pattern>
+  <template><srai>JA</srai></template>
+  </category>
+  
+  <category>
+  <pattern>* DURCHAUS</pattern>
+  <template><srai>JA</srai></template>
+  </category>
+  
+  <category>
+  <pattern>* DURCHAUS *</pattern>
+  <template><srai>JA</srai></template>
+  </category>
+  
+  <category>
+  <pattern>DURCHAUS *</pattern>
+  <template><srai>JA</srai></template>
+  </category>
+  
+  <category>
+  <pattern>GEWISS</pattern>
+  <template><srai>JA</srai></template>
+  </category>
+  
+  <category>
+  <pattern>* GEWISS</pattern>
+  <template><srai>JA</srai></template>
+  </category>
+  
+  <category>
+  <pattern>* GEWISS *</pattern>
+  <template><srai>JA</srai></template>
+  </category>
+  
+  <category>
+  <pattern>GEWISS *</pattern>
+  <template><srai>JA</srai></template>
+  </category>
+  
+  <category>
+  <pattern>AUF JEDEN FALL</pattern>
+  <template><srai>JA</srai></template>
+  </category>
+  
+  <category>
+  <pattern>* AUF JEDEN FALL</pattern>
+  <template><srai>JA</srai></template>
+  </category>
+  
+  <category>
+  <pattern>* AUF JEDEN FALL *</pattern>
+  <template><srai>JA</srai></template>
+  </category>
+  
+  <category>
+  <pattern>AUF JEDEN FALL *</pattern>
+  <template><srai>JA</srai></template>
+  </category> 
+
+  <category>
+  <pattern> * HÖFLICHER *</pattern>
+  <template><srai>JA</srai></template>
+  </category>   
+
   <category>
   <pattern>* NEIN</pattern>
   <template><srai>NEIN</srai></template>
@@ -5519,8 +7687,108 @@ Achtest du darauf immer freundlich zu sein?
 
 <topic name = "F13">
   
-    
 
+  <category>
+  <pattern>GUT</pattern>
+  <template><srai>JA</srai></template>
+  </category>
+  
+  <category>
+  <pattern>GUT *</pattern>
+  <template><srai>JA</srai></template>
+  </category>  
+  
+  <category>
+  <pattern>* GUT</pattern>
+  <template><srai>JA</srai></template>
+  </category>
+
+  <category>
+  <pattern>* GUT *</pattern>
+  <template><srai>JA</srai></template>
+  </category>
+  
+  <category>
+  <pattern>IMMER</pattern>
+  <template><srai>JA</srai></template>
+  </category>
+  
+  <category>
+  <pattern>IMMER *</pattern>
+  <template><srai>JA</srai></template>
+  </category>  
+  
+  <category>
+  <pattern>* IMMER</pattern>
+  <template><srai>JA</srai></template>
+  </category>
+
+  <category>
+  <pattern>* IMMER *</pattern>
+  <template><srai>JA</srai></template>
+  </category>
+  
+  <category>
+  <pattern>SOWIESO</pattern>
+  <template><srai>JA</srai></template>
+  </category>
+  
+  <category>
+  <pattern>SOWIESO *</pattern>
+  <template><srai>JA</srai></template>
+  </category>  
+  
+  <category>
+  <pattern>* SOWIESO</pattern>
+  <template><srai>JA</srai></template>
+  </category>
+
+  <category>
+  <pattern>* SOWIESO *</pattern>
+  <template><srai>JA</srai></template>
+  </category>
+  
+  <category>
+  <pattern>JO</pattern>
+  <template><srai>JA</srai></template>
+  </category>
+  
+  <category>
+  <pattern>JO *</pattern>
+  <template><srai>JA</srai></template>
+  </category>  
+  
+  <category>
+  <pattern>* JO</pattern>
+  <template><srai>JA</srai></template>
+  </category>
+
+  <category>
+  <pattern>* JO *</pattern>
+  <template><srai>JA</srai></template>
+  </category>
+  
+  <category>
+  <pattern>SICHERHEIT</pattern>
+  <template><srai>JA</srai></template>
+  </category>
+  
+  <category>
+  <pattern>SICHERHEIT *</pattern>
+  <template><srai>JA</srai></template>
+  </category>  
+  
+  <category>
+  <pattern>* SICHERHEIT</pattern>
+  <template><srai>JA</srai></template>
+  </category>
+
+  <category>
+  <pattern>* SICHERHEIT *</pattern>
+  <template><srai>JA</srai></template>
+  </category>
+  
+  
   <category>
   <pattern>* JA</pattern>
   <template><srai>JA</srai></template>
@@ -5774,9 +8042,13 @@ Achtest du darauf immer freundlich zu sein?
   <category>
   <pattern>AUF JEDEN FALL *</pattern>
   <template><srai>JA</srai></template>
-  </category>
-  
-  
+  </category> 
+
+  <category>
+  <pattern> * HÖFLICHER *</pattern>
+  <template><srai>JA</srai></template>
+  </category>   
+
   <category>
   <pattern>* NEIN</pattern>
   <template><srai>NEIN</srai></template>
@@ -6041,8 +8313,108 @@ Bist du oft von deinen Gefühlen hin und her gerissen?
 
 <topic name = "F14">
   
-    
+  
+  <category>
+  <pattern>GUT</pattern>
+  <template><srai>JA</srai></template>
+  </category>
+  
+  <category>
+  <pattern>GUT *</pattern>
+  <template><srai>JA</srai></template>
+  </category>  
+  
+  <category>
+  <pattern>* GUT</pattern>
+  <template><srai>JA</srai></template>
+  </category>
 
+  <category>
+  <pattern>* GUT *</pattern>
+  <template><srai>JA</srai></template>
+  </category>
+  
+  <category>
+  <pattern>IMMER</pattern>
+  <template><srai>JA</srai></template>
+  </category>
+  
+  <category>
+  <pattern>IMMER *</pattern>
+  <template><srai>JA</srai></template>
+  </category>  
+  
+  <category>
+  <pattern>* IMMER</pattern>
+  <template><srai>JA</srai></template>
+  </category>
+
+  <category>
+  <pattern>* IMMER *</pattern>
+  <template><srai>JA</srai></template>
+  </category>
+  
+  <category>
+  <pattern>SOWIESO</pattern>
+  <template><srai>JA</srai></template>
+  </category>
+  
+  <category>
+  <pattern>SOWIESO *</pattern>
+  <template><srai>JA</srai></template>
+  </category>  
+  
+  <category>
+  <pattern>* SOWIESO</pattern>
+  <template><srai>JA</srai></template>
+  </category>
+
+  <category>
+  <pattern>* SOWIESO *</pattern>
+  <template><srai>JA</srai></template>
+  </category>
+  
+  <category>
+  <pattern>JO</pattern>
+  <template><srai>JA</srai></template>
+  </category>
+  
+  <category>
+  <pattern>JO *</pattern>
+  <template><srai>JA</srai></template>
+  </category>  
+  
+  <category>
+  <pattern>* JO</pattern>
+  <template><srai>JA</srai></template>
+  </category>
+
+  <category>
+  <pattern>* JO *</pattern>
+  <template><srai>JA</srai></template>
+  </category>
+  
+  <category>
+  <pattern>SICHERHEIT</pattern>
+  <template><srai>JA</srai></template>
+  </category>
+  
+  <category>
+  <pattern>SICHERHEIT *</pattern>
+  <template><srai>JA</srai></template>
+  </category>  
+  
+  <category>
+  <pattern>* SICHERHEIT</pattern>
+  <template><srai>JA</srai></template>
+  </category>
+
+  <category>
+  <pattern>* SICHERHEIT *</pattern>
+  <template><srai>JA</srai></template>
+  </category>
+  
+  
   <category>
   <pattern>* JA</pattern>
   <template><srai>JA</srai></template>
@@ -6296,9 +8668,13 @@ Bist du oft von deinen Gefühlen hin und her gerissen?
   <category>
   <pattern>AUF JEDEN FALL *</pattern>
   <template><srai>JA</srai></template>
-  </category>
-  
-  
+  </category> 
+
+  <category>
+  <pattern> * HÖFLICHER *</pattern>
+  <template><srai>JA</srai></template>
+  </category>   
+
   <category>
   <pattern>* NEIN</pattern>
   <template><srai>NEIN</srai></template>
@@ -6564,8 +8940,108 @@ Bist du ein ängstlicher Typ?
 
 <topic name = "F15">
   
-    
+  
+  <category>
+  <pattern>GUT</pattern>
+  <template><srai>JA</srai></template>
+  </category>
+  
+  <category>
+  <pattern>GUT *</pattern>
+  <template><srai>JA</srai></template>
+  </category>  
+  
+  <category>
+  <pattern>* GUT</pattern>
+  <template><srai>JA</srai></template>
+  </category>
 
+  <category>
+  <pattern>* GUT *</pattern>
+  <template><srai>JA</srai></template>
+  </category>
+  
+  <category>
+  <pattern>IMMER</pattern>
+  <template><srai>JA</srai></template>
+  </category>
+  
+  <category>
+  <pattern>IMMER *</pattern>
+  <template><srai>JA</srai></template>
+  </category>  
+  
+  <category>
+  <pattern>* IMMER</pattern>
+  <template><srai>JA</srai></template>
+  </category>
+
+  <category>
+  <pattern>* IMMER *</pattern>
+  <template><srai>JA</srai></template>
+  </category>
+  
+  <category>
+  <pattern>SOWIESO</pattern>
+  <template><srai>JA</srai></template>
+  </category>
+  
+  <category>
+  <pattern>SOWIESO *</pattern>
+  <template><srai>JA</srai></template>
+  </category>  
+  
+  <category>
+  <pattern>* SOWIESO</pattern>
+  <template><srai>JA</srai></template>
+  </category>
+
+  <category>
+  <pattern>* SOWIESO *</pattern>
+  <template><srai>JA</srai></template>
+  </category>
+  
+  <category>
+  <pattern>JO</pattern>
+  <template><srai>JA</srai></template>
+  </category>
+  
+  <category>
+  <pattern>JO *</pattern>
+  <template><srai>JA</srai></template>
+  </category>  
+  
+  <category>
+  <pattern>* JO</pattern>
+  <template><srai>JA</srai></template>
+  </category>
+
+  <category>
+  <pattern>* JO *</pattern>
+  <template><srai>JA</srai></template>
+  </category>
+  
+  <category>
+  <pattern>SICHERHEIT</pattern>
+  <template><srai>JA</srai></template>
+  </category>
+  
+  <category>
+  <pattern>SICHERHEIT *</pattern>
+  <template><srai>JA</srai></template>
+  </category>  
+  
+  <category>
+  <pattern>* SICHERHEIT</pattern>
+  <template><srai>JA</srai></template>
+  </category>
+
+  <category>
+  <pattern>* SICHERHEIT *</pattern>
+  <template><srai>JA</srai></template>
+  </category>
+  
+  
   <category>
   <pattern>* JA</pattern>
   <template><srai>JA</srai></template>
@@ -6819,9 +9295,13 @@ Bist du ein ängstlicher Typ?
   <category>
   <pattern>AUF JEDEN FALL *</pattern>
   <template><srai>JA</srai></template>
-  </category>
-  
-  
+  </category> 
+
+  <category>
+  <pattern> * HÖFLICHER *</pattern>
+  <template><srai>JA</srai></template>
+  </category>   
+
   <category>
   <pattern>* NEIN</pattern>
   <template><srai>NEIN</srai></template>
@@ -7056,8 +9536,6 @@ Bist du ein ängstlicher Typ?
   <pattern>NÖ *</pattern>
   <template><srai>NEIN</srai></template>
   </category>
-  
-  
   
   <category>
   <pattern>JA</pattern>
@@ -7396,6 +9874,25 @@ Bist du ein ängstlicher Typ?
 
 <!-- AFFIRMATION, Fuer JA 
 
+  <category>
+  <pattern>GUT</pattern>
+  <template><srai>JA</srai></template>
+  </category>
+  
+  <category>
+  <pattern>GUT *</pattern>
+  <template><srai>JA</srai></template>
+  </category>  
+  
+  <category>
+  <pattern>* GUT</pattern>
+  <template><srai>JA</srai></template>
+  </category>
+
+  <category>
+  <pattern>* GUT *</pattern>
+  <template><srai>JA</srai></template>
+  </category>
   
   <category>
   <pattern>IMMER</pattern>
