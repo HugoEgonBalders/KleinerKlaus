@@ -2280,5 +2280,46 @@ Bist du ein ängstlicher Typ?
   <pattern>NÖ *</pattern>
   <template><srai>NEIN</srai></template>
   </category>
+  
+  <category>
+  <pattern>NE</pattern>
+  <template><srai>NEIN</srai></template>
+  </category>
+  
+  <category>
+  <pattern>* NE</pattern>
+  <template><srai>NEIN</srai></template>
+  </category>
+  
+  <category>
+  <pattern>* NE *</pattern>
+  <template><srai>NEIN</srai></template>
+  </category>
+  
+  <category>
+  <pattern>NE *</pattern>
+  <template><srai>NEIN</srai></template>
+  </category>
+  
+   <category>
+  <pattern>NEE</pattern>
+  <template><srai>NEIN</srai></template>
+  </category>
+  
+  <category>
+  <pattern>* NEE</pattern>
+  <template><srai>NEIN</srai></template>
+  </category>
+  
+  <category>
+  <pattern>* NEE *</pattern>
+  <template><srai>NEIN</srai></template>
+  </category>
+  
+  <category>
+  <pattern>NEE *</pattern>
+  <template><srai>NEIN</srai></template>
+  </category>
 
+  
 </aiml>
