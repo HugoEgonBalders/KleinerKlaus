@@ -22,6 +22,7 @@ import numpy as np
 from . import big5
 import datetime
 
+
 class Kernel:
     # module constants
     _globalSessionID = "_global" # key of the global session (duh)
@@ -231,8 +232,8 @@ class Kernel:
             #print(float(value))
             #print(float(self._sessions[sessionID][name]) +  float(value))
             self._sessions[sessionID][name] = str(float(self._sessions[sessionID][name]) +  float(value))
-        elif name[:6] == "ignore":
-            big5.ignore_subject(name[7:])
+        elif name == "ignore":
+            big5.ignore_subject(value)
         else:
             self._sessionManager._set_session_value(sessionID, name, value)
 
