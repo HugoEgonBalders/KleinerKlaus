@@ -12,7 +12,7 @@ subjects = [np.array([3,1,0,1,3]) #Kunst
            ,np.array([1,2,1,2,2]) #Naturwissenschaften
            ]
 num_s = len(subjects)
-subject_names = ["Kunst","BWL","VWL","Ingenieur","Humanwissenschaften"
+subject_names = ["Kunst","BWL","VWL","Ingenieurswissenschaften","Humanwissenschaften"
                 ,"Recht","Politikwissenschaften","Medizin","Psychologie"
                 ,"Naturwissenschaften"]
 

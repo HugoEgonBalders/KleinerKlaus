@@ -38,12 +38,82 @@
 
 
 <topic name="VORSTELLEN">
+
+<category>
+<pattern>MEIN NAME IST *</pattern>
+<template>
+  <think><set name="username"> <star/> </set></think>
+  <srai>NAMEEINGEGEBEN</srai>
+</template>
+</category> 
+
 <category>
 <pattern>ICH HEISSE *</pattern>
 <template>
-  Hallo <set name = "username"> <star/>! </set>, freut mich dich kennenzulernen.
+  <think><set name="username"> <star/> </set></think>
+  <srai>NAMEEINGEGEBEN</srai>
+</template>
+</category> 
+
+<category>
+<pattern>MAN NENNT MICH *</pattern>
+<template>
+  <think><set name="username"> <star/> </set></think>
+  <srai>NAMEEINGEGEBEN</srai>
+</template>
+</category> 
+
+<category>
+<pattern>* BIN *</pattern>
+<template>
+  <think><set name="username"> <star index="2"/> </set></think>
+  <srai>NAMEEINGEGEBEN</srai>
+</template>
+</category> 
+
+<category>
+<pattern>* HEISSE *</pattern>
+<template>
+  <think><set name="username"> <star index="2"/> </set></think>
+  <srai>NAMEEINGEGEBEN</srai>
+</template>
+</category> 
+
+<category>
+<pattern>* NENNT *</pattern>
+<template>
+  <think><set name="username"> <star index="2"/> </set></think>
+  <srai>NAMEEINGEGEBEN</srai>
+</template>
+</category> 
+
+<category>
+<pattern>*</pattern>
+<template>
+  <think><set name="username"> <star/> </set></think>
+  <srai>NAMEEINGEGEBEN</srai>
+</template>
+</category> 
+
+<category>
+<pattern>NAMEEINGEGEBEN</pattern>
+<template>
+  Hallo <get name="username"/>, freut mich dich kennenzulernen.
   <srai>TAGESFORMEL<get name="tageszeit"/></srai>
   Was machst du gerade?
+  <think><set name="topic">SMALLTALK</set></think>
+</template>
+</category> 
+
+</topic>
+
+<topic name="SMALLTALK">
+
+<category>
+<pattern>*</pattern>
+<template>
+  Ah, ich verstehe. Na dann lass uns mit ein paar Fragen anfangen, mit denen ich dich besser kennenlerne und dir somit zu einer Studienrichtung raten kann.
+  <srai>F1</srai>
 </template>
 </category> 
 </topic>
@@ -71,15 +141,6 @@
 </category> 
 
 
-<topic name = "VORSTELLEN">
-<category>
-<pattern>*</pattern>
-<template>
-  Ah, ich verstehe. Na dann lass uns mit ein paar Fragen anfangen, mit denen ich dich besser kennenlerne und dir somit zu einer Studienrichtung raten kann.
-  <srai>F1</srai>
-</template>
-</category> 
-</topic>
 
 
 <category>
