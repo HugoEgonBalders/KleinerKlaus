@@ -2040,6 +2040,26 @@ Bist du ein ängstlicher Typ?
   <template><srai>JA</srai></template>
   </category>
   
+  <category>
+  <pattern>JO</pattern>
+  <template><srai>JA</srai></template>
+  </category>
+  
+  <category>
+  <pattern>* JO</pattern>
+  <template><srai>JA</srai></template>
+  </category>
+  
+  <category>
+  <pattern>* JO *</pattern>
+  <template><srai>JA</srai></template>
+  </category>
+  
+  <category>
+  <pattern>JO *</pattern>
+  <template><srai>JA</srai></template>
+  </category>
+  
   
   
   
