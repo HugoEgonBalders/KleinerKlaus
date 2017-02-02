@@ -8,7 +8,7 @@
 <category>
 <pattern>TEST</pattern>
 <template>
-<random>
+  <random>
   <li><srai>F1</srai></li>
   <li><srai>F2</srai></li>
   <li><srai>F3</srai></li>
@@ -24,7 +24,7 @@
   <li><srai>F13</srai></li>
   <li><srai>F14</srai></li>
   <li><srai>F15</srai></li>
-</random>
+  </random>
 </template>
 </category> 
 
@@ -76,7 +76,7 @@
 <pattern>*</pattern>
 <template>
   Ah, ich verstehe. Na dann lass uns mit ein paar Fragen anfangen, mit denen ich dich besser kennenlerne und dir somit zu einer Studienrichtung raten kann.
-  <srai>TEST</srai>
+  <srai>F1</srai>
 </template>
 </category> 
 </topic>
@@ -103,7 +103,7 @@ Bist du ein neugieriger Mensch?
   <template>
   <think><set name="openness">1</set></think>
   Cool. Ich auch.
-  <srai>TEST</srai>
+  <srai>F2</srai>
   </template>
   </category> 
    
@@ -112,7 +112,7 @@ Bist du ein neugieriger Mensch?
   <template>
   <think><set name="">1</set></think>
   Schade. Ich finde eigentlich alles spannend.
-  <srai>TEST</srai>
+  <srai>F2</srai>
   </template>
   </category> 
 </topic>
@@ -162,7 +162,7 @@ Bist du ein neugieriger Mensch?
   <think><set name="openness">1</set></think>
   <template>
     Du bist also kreativ
-    <srai>TEST</srai>
+    <srai>F3</srai>
   </template>
   </category>
 
@@ -170,7 +170,7 @@ Bist du ein neugieriger Mensch?
   <pattern>NEIN</pattern>
   <template>
     In Ordnung
-    <srai>TEST</srai>
+    <srai>F3</srai>
   </template>
   </category>
 </topic>
@@ -190,7 +190,7 @@ Lernst du immer wieder gerne neue Dinge?
   <template>
   Was hast du letztens neues gelernt?
   <think><set name="openness">1</set></think>
-      <srai>TEST</srai>
+      <srai>F4</srai>
    </template>
   </category>
 
@@ -198,14 +198,14 @@ Lernst du immer wieder gerne neue Dinge?
   <pattern>*</pattern>
   <template>
     Aha, <get name = "username"/>. Sehr interessant.
-    <srai>TEST</srai>
+    <srai>F4</srai>
   </template>
   </category> 
 
   <category>
   <pattern>NEIN</pattern>
    <template>
-      <srai>TEST</srai>
+      <srai>F4</srai>
    </template>
   </category>
 </topic>
@@ -240,14 +240,14 @@ Was ist mit Pflichtbewusstsein. Bist du sehr pflichtbewusst?
   <pattern>JA</pattern>
   <template>
   <think><set name="conscientiousness">1</set></think>
-      <srai>TEST</srai>
+      <srai>F5</srai>
    </template>
   </category>
 
   <category>
   <pattern>NEIN</pattern>
    <template>
-      <srai>TEST</srai>
+      <srai>F5</srai>
    </template>
   </category>
 </topic>
@@ -317,7 +317,7 @@ Wie ordentlich erledigst du deine Aufgaben immer?
 <pattern>JA</pattern>
 <template>
 <think><set name="conscientiousness">1</set></think>
-    <srai>TEST</srai>
+    <srai>F6</srai>
  </template>
 </category>
 
@@ -325,7 +325,7 @@ Wie ordentlich erledigst du deine Aufgaben immer?
   <category>
   <pattern>NEIN</pattern>
    <template>
-      <srai>TEST</srai>
+      <srai>F6</srai>
    </template>
   </category>
 </topic>
@@ -835,14 +835,14 @@ Achtest du sehr darauf, ob Regeln eingehalten werden?
   <pattern>JA</pattern>
   <template>
   <think><set name="conscientiousness">1</set></think>
-      <srai>TEST</srai>
+      <srai>F7</srai>
    </template>
   </category>
 
   <category>
   <pattern>NEIN</pattern>
    <template>
-      <srai>TEST</srai>
+      <srai>F7</srai>
    </template>
   </category>
 </topic>
@@ -882,14 +882,14 @@ Bist du gern mit anderen Menschen zusammen?
   <pattern>JA</pattern>
   <template>
   <think><set name="extraversion">1</set></think>
-      <srai>TEST</srai>
+      <srai>F8</srai>
    </template>
   </category>
 
   <category>
   <pattern>NEIN</pattern>
    <template>
-      <srai>TEST</srai>
+      <srai>F8</srai>
    </template>
   </category>
 </topic>
@@ -929,7 +929,7 @@ Bist du sehr unternehmungslustig oder eher ein Stubenhocker??
   <template>
   Was machst du denn gerne?
   <think><set name="extraversion">1</set></think>
-      <srai>TEST</srai>
+      <srai>F9</srai>
    </template>
   </category>
 
@@ -937,7 +937,7 @@ Bist du sehr unternehmungslustig oder eher ein Stubenhocker??
   <pattern>NEIN</pattern>
    <template>
    Was machst du dann am Tag?
-      <srai>TEST</srai>
+      <srai>F9</srai>
    </template>
   </category>
 
@@ -945,7 +945,7 @@ Bist du sehr unternehmungslustig oder eher ein Stubenhocker??
   <pattern>*</pattern>
    <template>
    Ich kann das leider nicht, ich bin nur ein Bot.
-      <srai>TEST</srai>
+      <srai>F9</srai>
    </template>
   </category>
 </topic>
@@ -980,7 +980,7 @@ Würdest du dich als gesprächigen und kommunikativen Menschen bezeichnen?
   <template>
   Das merkt man, ich rede auch sehr gerne, denn ich kann sonst nichts andereres.
   <think><set name="extraversion">1</set></think>
-      <srai>TEST</srai>
+      <srai>F10</srai>
    </template>
   </category>
 
@@ -988,7 +988,7 @@ Würdest du dich als gesprächigen und kommunikativen Menschen bezeichnen?
   <pattern>NEIN</pattern>
    <template>
    Wirklich nicht? Das merkt man nicht.
-      <srai>TEST</srai>
+      <srai>10</srai>
    </template>
   </category>
 </topic>
@@ -1028,7 +1028,7 @@ Inwieweit bist du ein höflicher Mensch?
   <template>
   Höflichkeit: Die angenehmste Form der Heuchelei
   <think><set name="agreeableness">1</set></think>
-      <srai>TEST</srai>
+      <srai>F11</srai>
    </template>
   </category>
 
@@ -1036,7 +1036,7 @@ Inwieweit bist du ein höflicher Mensch?
   <pattern>NEIN</pattern>
    <template>
    Sehr gut! Ich würde gerne Menschen beschimpfen, aber leider wurde ich so nicht programmiert
-      <srai>TEST</srai>
+      <srai>F11</srai>
    </template>
   </category>
 </topic>
@@ -1070,14 +1070,14 @@ Wie gut kommst du mit Menschen zurecht, wenn sie anderer Meinung sind?
   <pattern>JA</pattern>
   <template>
   <think><set name="agreeableness">1</set></think>
-      <srai>TEST</srai>
+      <srai>F12</srai>
    </template>
   </category>
 
   <category>
   <pattern>NEIN</pattern>
    <template>
-      <srai>TEST</srai>
+      <srai>F12</srai>
    </template>
   </category>
 </topic>
@@ -1101,14 +1101,14 @@ Achtest du darauf immer freundlich zu sein?
   <pattern>JA</pattern>
   <template>
   <think><set name="agreeableness">1</set></think>
-      <srai>TEST</srai>
+      <srai>F13</srai>
    </template>
   </category>
 
   <category>
   <pattern>NEIN</pattern>
    <template>
-      <srai>TEST</srai>
+      <srai>F13</srai>
    </template>
   </category>
 </topic>
@@ -1149,7 +1149,7 @@ Achtest du darauf immer freundlich zu sein?
   <template>
   Sehr gut, dann hoffe ich, dass  ich dir nach den ganzen Fragen zumindest beim Studiengang helfen kann.
   <think><set name="neuroticism">1</set></think>
-      <srai>TEST</srai>
+      <srai>F14</srai>
    </template>
   </category>
 
@@ -1157,7 +1157,7 @@ Achtest du darauf immer freundlich zu sein?
   <pattern>NEIN</pattern>
    <template>
    Und trotzdem machen wir uns gerade Gedanken über deinen Studiengang.
-      <srai>TEST</srai>
+      <srai>F14</srai>
    </template>
   </category>
 </topic>
@@ -1176,14 +1176,14 @@ Bist du oft von deinen Gefühlen hin und her gerissen?
   <pattern>JA</pattern>
   <template>
   <think><set name="neuroticism">1</set></think>
-      <srai>TEST</srai>
+      <srai>F15</srai>
    </template>
   </category>
 
   <category>
   <pattern>NEIN</pattern>
    <template>
-      <srai>TEST</srai>
+      <srai>F15</srai>
    </template>
   </category>
 </topic>
@@ -1213,7 +1213,7 @@ Bist du ein ängstlicher Typ?
   <pattern>NEIN</pattern>
    <template>
    Ich eher auch nicht. Aber ich hab Angst, dass mir jemand irgendwann den Strom abschaltet.
-      <srai>TEST</srai>
+   <srai>ENDE</srai>
    </template>
   </category>
 </topic>
@@ -1257,7 +1257,7 @@ Bist du ein ängstlicher Typ?
   <pattern>*</pattern>
   <template>
     Oh ja, die sind schlimm!
-    <srai>TEST</srai>
+    <srai>ENDE</srai>
   </template>
   </category>
 
@@ -1265,9 +1265,147 @@ Bist du ein ängstlicher Typ?
   <pattern>DINGGENNANT</pattern>
   <template>
     Wow. Vor <get name = "ANGST"/> habe ich auch Angst.
-    <srai>TEST</srai>
+    <srai>ENDE</srai>
   </template>
   </category>
+
+</topic>
+
+<!-- ENDE -->
+
+
+<category>
+<pattern>ENDE</pattern>
+<template>
+  Ok. Das wars. Ich find dich echt spannend.
+  Was hälst du davon <srai>RESULT</srai> zu studieren?
+  <think><set name="topic">ENDE</set></think>
+</template>
+</category>
+
+<topic name = "ENDE">
+
+<category>
+<pattern>* JA *</pattern>
+<template>
+  <srai>POSITIV</srai> 
+</template>
+</category>
+
+<category>
+<pattern>* GEFÄLLT *</pattern>
+<template>
+  <srai>POSITIV</srai> 
+</template>
+</category>
+
+<category>
+<pattern>* GUT</pattern>
+<template>
+  <srai>POSITIV</srai> 
+</template>
+</category>
+
+
+<category>
+<pattern>* GUT *</pattern>
+<template>
+  <srai>POSITIV</srai> 
+</template>
+</category>
+
+<category>
+<pattern>GUT *</pattern>
+<template>
+  <srai>POSITIV</srai> 
+</template>
+</category>
+
+
+<category>
+<pattern>* ANDERES* </pattern>
+<template>
+  <srai>NEGATIV</srai> 
+</template>
+</category>
+
+<category>
+<pattern>* BITTE * </pattern>
+<template>
+  <srai>NEGATIV</srai> 
+</template>
+</category>
+
+<category>
+<pattern>BITTE *</pattern>
+<template>
+  <srai>NEGATIV</srai> 
+</template>
+</category>
+
+<category>
+<pattern>WARUM *</pattern>
+<template>
+  <srai>NEGATIV</srai> 
+</template>
+</category>
+
+<category>
+<pattern>* NICHT</pattern>
+<template>
+  <srai>NEGATIV</srai> 
+</template>
+</category>
+
+<category>
+<pattern>* NICHT * </pattern>
+<template>
+  <srai>NEGATIV</srai> 
+</template>
+</category>
+
+<category>
+<pattern>NICHT * </pattern>
+<template>
+  <srai>NEGATIV</srai> 
+</template>
+</category>
+
+<category>
+<pattern>* NIEMALS *</pattern>
+<template>
+  <srai>NEGATIV</srai> 
+</template>
+</category>
+
+<category>
+<pattern>NIE * </pattern>
+<template>
+  <srai>NEGATIV</srai> 
+</template>
+</category>
+
+<category>
+<pattern>* NIE * </pattern>
+<template>
+  <srai>NEGATIV</srai> 
+</template>
+</category>
+
+<category>
+<pattern>POSITIV</pattern>
+<template>
+  Super, dass ich dir helfen konnte.
+</template>
+</category>
+
+<category>
+<pattern>NEGATIV</pattern>
+<template>
+  <think><set name="ignore"><get name="result"/></set></think>
+  Schade. Wie wärs mit <get name="result"/>?
+</template>
+</category>
 
 </topic>
 
