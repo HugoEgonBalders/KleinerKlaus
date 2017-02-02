@@ -233,7 +233,7 @@ Bist du ein neugieriger Mensch?
   <category>
   <pattern>NEIN</pattern>
   <template>
-    In Ordnung
+    In Ordnung.
     <srai>F3</srai>
   </template>
   </category>
@@ -252,9 +252,9 @@ Lernst du immer wieder gerne neue Dinge?
 <category>
   <pattern>JA</pattern>
   <template>
-  Was hast du letztens neues gelernt?
+  Was hast du letztens Neues gelernt?
   <think><set name="openness">1</set></think>
-      <srai>F4</srai>
+  <think><set name="topic">SMALLTALKF3</set></think>
    </template>
   </category>
 
@@ -271,6 +271,15 @@ Lernst du immer wieder gerne neue Dinge?
    <template>
       <srai>F4</srai>
    </template>
+  </category>
+</topic>
+
+<topic name = "SMALLTALKF3">
+  <category>
+    <pattern>*</pattern>
+    <template>
+      Oh, das hab ich aber nicht von dir erwartet.
+    </template>
   </category>
 </topic>
 
@@ -639,7 +648,7 @@ Würdest du dich als gesprächigen und kommunikativen Menschen bezeichnen?
   <pattern>NEIN</pattern>
    <template>
    Wirklich nicht? Das merkt man nicht.
-      <srai>10</srai>
+      <srai>F10</srai>
    </template>
   </category>
 </topic>
