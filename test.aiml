@@ -328,6 +328,11 @@ Wie ordentlich erledigst du deine Aufgaben immer?
 
 <topic name = "F5">
   <category>
+  <pattern>ORDENTLICH</pattern>
+  <template><srai>JA</srai></template>
+  </category>
+
+  <category>
   <pattern>* EHER ORDENTLICH</pattern>
   <template><srai>JA</srai></template>
   </category>
@@ -352,7 +357,7 @@ Wie ordentlich erledigst du deine Aufgaben immer?
   <template><srai>JA</srai></template>
   </category>
 
-<category>
+  <category>
   <pattern>* SEHR ORDENTLICH *</pattern>
   <template><srai>JA</srai></template>
   </category>   
@@ -374,6 +379,11 @@ Wie ordentlich erledigst du deine Aufgaben immer?
   
   <category>
   <pattern>UNORDENTLICH *</pattern>
+  <template><srai>NEIN</srai></template>
+  </category>
+
+  <category>
+  <pattern>UNORDENTLICH</pattern>
   <template><srai>NEIN</srai></template>
   </category>
   
@@ -567,17 +577,52 @@ Würdest du dich als gesprächigen und kommunikativen Menschen bezeichnen?
 
 <topic name = "F9">
   <category>
-  <pattern> * JA *</pattern>
+  <pattern>* JA *</pattern>
   <template><srai>JA</srai></template>
   </category>  
 
   <category>
-  <pattern> * SCHON *</pattern>
+  <pattern>* SCHON *</pattern>
   <template><srai>JA</srai></template>
   </category>    
   
   <category>
-  <pattern> * nicht *</pattern>
+  <pattern>* NICHT *</pattern>
+  <template><srai>NEIN</srai></template>
+  </category>   
+
+  <category>
+  <pattern>KOMMUNIKATIV</pattern>
+  <template><srai>NEIN</srai></template>
+  </category>   
+
+  <category>
+  <pattern>GESPRÄCHIG</pattern>
+  <template><srai>NEIN</srai></template>
+  </category>   
+
+  <category>
+  <pattern>* GESPRÄCHIG</pattern>
+  <template><srai>NEIN</srai></template>
+  </category>   
+
+  <category>
+  <pattern>GESPRÄCHIG *</pattern>
+  <template><srai>NEIN</srai></template>
+  </category>   
+
+  <category>
+  <pattern>* GESPRÄCHIG *</pattern>
+  <template><srai>NEIN</srai></template>
+  </category>   
+
+  <category>
+  <pattern>* KOMMUNIKATIV</pattern>
+  <template><srai>NEIN</srai></template>
+  </category>   
+
+  <category>
+  <pattern>* KOMMUNIKATIV *</pattern>
   <template><srai>NEIN</srai></template>
   </category>   
    
@@ -897,6 +942,35 @@ Bist du ein ängstlicher Typ?
   <srai>POSITIV</srai> 
 </template>
 </category>
+
+<category>
+<pattern>* OK *</pattern>
+<template>
+  <srai>POSITIV</srai> 
+</template>
+</category>
+
+<category>
+<pattern>OK *</pattern>
+<template>
+  <srai>POSITIV</srai> 
+</template>
+</category>
+
+<category>
+<pattern>OK</pattern>
+<template>
+  <srai>POSITIV</srai> 
+</template>
+</category>
+
+<category>
+<pattern>* OK</pattern>
+<template>
+  <srai>POSITIV</srai> 
+</template>
+</category>
+
 
 <category>
 <pattern>* GEFÄLLT *</pattern>
