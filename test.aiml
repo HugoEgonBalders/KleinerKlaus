@@ -1731,7 +1731,6 @@ Bist du ein ängstlicher Typ?
 </category>
  
 
-</aiml>
 
 
 
@@ -2154,6 +2153,7 @@ Bist du ein ängstlicher Typ?
   <template><srai>NEIN</srai></template>
   </category>
   
+  <category>
   <pattern>NIEMALS</pattern>
   <template><srai>NEIN</srai></template>
   </category>
@@ -2233,3 +2233,4 @@ Bist du ein ängstlicher Typ?
   <template><srai>NEIN</srai></template>
   </category>
 
+</aiml>
