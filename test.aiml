@@ -735,7 +735,7 @@ Inwieweit bist du ein höflicher Mensch?
   <category>
   <pattern>NEIN</pattern>
    <template>
-   Sehr gut! Ich würde gerne Menschen beschimpfen, aber leider wurde ich so nicht programmiert
+   Sehr gut! Ich würde gerne Menschen beschimpfen, aber leider wurde ich so nicht programmiert.
       <srai>F11</srai>
    </template>
   </category>
