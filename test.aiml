@@ -532,7 +532,7 @@ Bist du sehr unternehmungslustig oder eher ein Stubenhocker??
   <template>
   Was machst du denn gerne?
   <think><set name="extraversion">1</set></think>
-      <srai>F9</srai>
+  <think><set name="topic">SMALLTALKF8</set></think>
    </template>
   </category>
 
@@ -540,10 +540,13 @@ Bist du sehr unternehmungslustig oder eher ein Stubenhocker??
   <pattern>NEIN</pattern>
    <template>
    Was machst du dann am Tag?
-      <srai>F9</srai>
+  <think><set name="topic">SMALLTALKF8</set></think>
    </template>
   </category>
 
+</topic>
+
+<topic name = "SMALLTALKF8">
   <category>
   <pattern>*</pattern>
    <template>
@@ -901,6 +904,14 @@ Bist du ein ängstlicher Typ?
   <srai>POSITIV</srai> 
 </template>
 </category>
+
+<category>
+<pattern>GEFÄLLT *</pattern>
+<template>
+  <srai>POSITIV</srai> 
+</template>
+</category>
+
 
 <category>
 <pattern>* GUT</pattern>
