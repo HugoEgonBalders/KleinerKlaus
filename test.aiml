@@ -971,18 +971,66 @@ Bist du sehr unternehmungslustig oder eher ein Stubenhocker??
 
 <topic name = "F8">
   <category>
+  <pattern>UNTERNEHMUNGSLUSTIG</pattern>
+  <template><srai>JA</srai></template>
+  </category>
+  
+  <category>
+  <pattern> * UNTERNEHMUNGSLUSTIG</pattern>
+  <template><srai>JA</srai></template>
+  </category>
+  
+  <category>
+  <pattern>UNTERNEHMUNGSLUSTIG *</pattern>
+  <template><srai>JA</srai></template>
+  </category>
+  
+  <category>
   <pattern> * UNTERNEHMUNGSLUSTIG *</pattern>
   <template><srai>JA</srai></template>
   </category>
-
   
+  <category>
+  <pattern>HAUSE</pattern>
+  <template><srai>NEIN</srai></template>
+  </category>
   
+  <category>
+  <pattern>* HAUSE</pattern>
+  <template><srai>NEIN</srai></template>
+  </category>
+  
+  <category>
+  <pattern>HAUSE *</pattern>
+  <template><srai>NEIN</srai></template>
+  </category>
   
   <category>
   <pattern> * HAUSE *</pattern>
   <template><srai>NEIN</srai></template>
   </category>  
 
+  <category>
+  <pattern>STUBENHOCKER</pattern>
+  <template><srai>NEIN</srai></template>
+  </category> 
+  
+  <category>
+  <pattern>* STUBENHOCKER</pattern>
+  <template><srai>NEIN</srai></template>
+  </category> 
+  
+  <category>
+  <pattern>STUBENHOCKER *</pattern>
+  <template><srai>NEIN</srai></template>
+  </category> 
+  
+  <category>
+  <pattern>* STUBENHOCKER *</pattern>
+  <template><srai>NEIN</srai></template>
+  </category> 
+  
+  
   <category>
   <pattern> * STUBENHOCKER *</pattern>
   <template><srai>NEIN</srai></template>
