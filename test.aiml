@@ -655,29 +655,69 @@ Inwieweit bist du ein höflicher Mensch?
 
 <topic name = "F10">
   <category>
-  <pattern> * SEHR *</pattern>
+  <pattern>* SEHR *</pattern>
   <template><srai>JA</srai></template>
   </category> 
 
   <category>
-  <pattern> * HÖFLICHER *</pattern>
+  <pattern>* HÖFLICHER *</pattern>
   <template><srai>JA</srai></template>
   </category>   
 
   <category>
-  <pattern> * NICHT *</pattern>
+  <pattern>* HÖFLICH *</pattern>
+  <template><srai>JA</srai></template>
+  </category>   
+
+  <category>
+  <pattern>* HÖFLICH</pattern>
+  <template><srai>JA</srai></template>
+  </category>   
+
+  <category>
+  <pattern>HÖFLICH *</pattern>
+  <template><srai>JA</srai></template>
+  </category>   
+
+  <category>
+  <pattern>NICHT * HÖFLICH *</pattern>
+  <template><srai>NEIN</srai></template>
+  </category>   
+
+  <category>
+  <pattern>NICHT * HÖFLICH</pattern>
+  <template><srai>NEIN</srai></template>
+  </category>   
+
+  <category>
+  <pattern>* NICHT * HÖFLICH</pattern>
+  <template><srai>NEIN</srai></template>
+  </category>   
+
+  <category>
+  <pattern>* NICHT HÖFLICH</pattern>
+  <template><srai>NEIN</srai></template>
+  </category>   
+
+  <category>
+  <pattern>NICHT HÖFLICH</pattern>
+  <template><srai>NEIN</srai></template>
+  </category>   
+
+  <category>
+  <pattern>* NICHT *</pattern>
   <template><srai>NEIN</srai></template>
   </category>   
  
   <category>
-  <pattern> * KEIN *</pattern>
+  <pattern>* KEIN *</pattern>
   <template><srai>NEIN</srai></template>
   </category> 
    
   <category>
   <pattern>JA</pattern>
   <template>
-  Höflichkeit: Die angenehmste Form der Heuchelei
+  Höflichkeit: Die angenehmste Form der Heuchelei.
   <think><set name="agreeableness">1</set></think>
       <srai>F11</srai>
    </template>
@@ -769,7 +809,7 @@ Achtest du darauf immer freundlich zu sein?
 <category>
 <pattern>F13</pattern>
 <template>
-  In Ordnung, <get name = "username"/> Da wir ja gerade über einen möglichen Studiengang reden, grübelst du sonst viel über deine Zukunft nach?
+  In Ordnung, <get name = "username"/>. Da wir ja gerade über einen möglichen Studiengang reden, grübelst du sonst viel über deine Zukunft nach?
 <think><set name="topic">F13</set></think>
 </template>
 </category> 
