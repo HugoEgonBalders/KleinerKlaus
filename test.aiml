@@ -541,12 +541,12 @@ Achtest du sehr darauf, ob Regeln eingehalten werden?
   </category>
   
   <category>
-  <pattern>KlAR</pattern>
+  <pattern>KLAR</pattern>
   <template><srai>JA</srai></template>
   </category>
   
   <category>
-  <pattern>* KlAR</pattern>
+  <pattern>* KLAR</pattern>
   <template><srai>JA</srai></template>
   </category>
   
