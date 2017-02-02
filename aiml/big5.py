@@ -11,7 +11,6 @@ subjects = [np.array([3,1,0,1,3]) #Kunst
            ,np.array([3,2,1,2,3]) #Psychologie
            ,np.array([1,2,1,2,2]) #Naturwissenschaften
            ]
-num_s = len(subjects)
 subject_names = ["Kunst","BWL","VWL","Ingenieurswissenschaften","Humanwissenschaften"
                 ,"Recht","Politikwissenschaften","Medizin","Psychologie"
                 ,"Naturwissenschaften"]
@@ -42,7 +41,7 @@ def angle_between(v1, v2):
 def search(v):
     min_angle = float("inf")
     min_i = 0
-    for i in range(0,num_s):
+    for i in range(0,len(subjects)):
         a = angle_between(v,subjects[i])
         if a < min_angle:
             min_angle = a

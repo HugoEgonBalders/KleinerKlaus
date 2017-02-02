@@ -1433,6 +1433,13 @@ Bist du ein ängstlicher Typ?
 </template>
 </category>
 
+<category>
+<pattern>* ZUFRIEDEN</pattern>
+<template>
+  <srai>POSITIV</srai> 
+</template>
+</category>
+
 
 <category>
 <pattern>* ANDERES* </pattern>
@@ -1503,6 +1510,21 @@ Bist du ein ängstlicher Typ?
   <srai>NEGATIV</srai> 
 </template>
 </category>
+
+<category>
+<pattern>* DOOF</pattern>
+<template>
+  <srai>NEGATIV</srai> 
+</template>
+</category>
+
+<category>
+<pattern>* DOOF *</pattern>
+<template>
+  <srai>NEGATIV</srai> 
+</template>
+</category>
+
 
 <category>
 <pattern>POSITIV</pattern>
@@ -2039,12 +2061,6 @@ Bist du ein ängstlicher Typ?
   <pattern>AUF JEDEN FALL *</pattern>
   <template><srai>JA</srai></template>
   </category>
-  
-  
-  
-  
-  
-  
 
   <category>
   <pattern>* NEIN</pattern>
