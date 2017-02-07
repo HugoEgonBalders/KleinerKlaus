@@ -279,6 +279,7 @@ Lernst du immer wieder gerne neue Dinge?
     <pattern>*</pattern>
     <template>
       Oh, das hab ich aber nicht von dir erwartet.
+      <srai>F4</srai>
     </template>
   </category>
 </topic>
