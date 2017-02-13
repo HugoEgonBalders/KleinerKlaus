@@ -9,10 +9,10 @@ function appendHtml(el, str) {
 function messageToHTML(msg, user){
   console.log(user);
   if (user == "deruser"){
-    return '<li class="deruser"><div class="profilbild"><img src="http://webbucket.de/studo/cg/bender.jpg" draggable="false"/></div><div class="nachricht"><p>'+ msg +'</p><time>[UHRZEIT]</time></div></li>';
+    return '<li class="deruser"><div class="profilbild"><img src="http://webbucket.de/studo/cg/bender.jpg" draggable="false"/></div><div class="nachricht"><p>'+ msg +'</p></div></li>';
   }
   else {
-    return '<li class="chatbot"><div class="profilbild"><img src="http://webbucket.de/studo/cg/prof.jpg" draggable="false"/></div><div class="nachricht"><p>'+ msg +'</p><time>[UHRZEIT]</time></div></li>';
+    return '<li class="chatbot"><div class="profilbild"><img src="http://webbucket.de/studo/cg/prof.jpg" draggable="false"/></div><div class="nachricht"><p>'+ msg +'</p></div></li>';
   }
 }
 

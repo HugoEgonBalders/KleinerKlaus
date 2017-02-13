@@ -446,8 +446,9 @@ class Kernel:
         # Add the session, if it doesn't already exist
         self._addSession(sessionID)
 
-        # split the input into discrete sentences
-        sentences = Utils.sentences(inpt)
+        # NOT # split the input into discrete sentences
+        #sentences = Utils.sentences(inpt)
+        sentences = [inpt]
         finalResponse = ""
         for s in sentences:
             # Add the input to the history list before fetching the

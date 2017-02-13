@@ -986,38 +986,39 @@ Bist du ein ängstlicher Typ?
 
 <topic name = "ENDE">
 
+
 <category>
 <pattern>* JA *</pattern>
 <template>
-  <srai>POSITIV</srai> 
+  <srai>JA</srai> 
 </template>
 </category>
 
 <category>
 <pattern>* OK *</pattern>
 <template>
-  <srai>POSITIV</srai> 
+  <srai>JA</srai> 
 </template>
 </category>
 
 <category>
 <pattern>OK *</pattern>
 <template>
-  <srai>POSITIV</srai> 
+  <srai>JA</srai> 
 </template>
 </category>
 
 <category>
 <pattern>OK</pattern>
 <template>
-  <srai>POSITIV</srai> 
+  <srai>JA</srai> 
 </template>
 </category>
 
 <category>
 <pattern>* OK</pattern>
 <template>
-  <srai>POSITIV</srai> 
+  <srai>JA</srai> 
 </template>
 </category>
 
@@ -1025,14 +1026,14 @@ Bist du ein ängstlicher Typ?
 <category>
 <pattern>* GEFÄLLT *</pattern>
 <template>
-  <srai>POSITIV</srai> 
+  <srai>JA</srai> 
 </template>
 </category>
 
 <category>
 <pattern>GEFÄLLT *</pattern>
 <template>
-  <srai>POSITIV</srai> 
+  <srai>JA</srai> 
 </template>
 </category>
 
@@ -1040,7 +1041,7 @@ Bist du ein ängstlicher Typ?
 <category>
 <pattern>* GUT</pattern>
 <template>
-  <srai>POSITIV</srai> 
+  <srai>JA</srai> 
 </template>
 </category>
 
@@ -1048,119 +1049,246 @@ Bist du ein ängstlicher Typ?
 <category>
 <pattern>* GUT *</pattern>
 <template>
-  <srai>POSITIV</srai> 
+  <srai>JA</srai> 
 </template>
 </category>
 
 <category>
 <pattern>GUT *</pattern>
 <template>
-  <srai>POSITIV</srai> 
+  <srai>JA</srai> 
 </template>
 </category>
 
 <category>
 <pattern>* ZUFRIEDEN</pattern>
 <template>
-  <srai>POSITIV</srai> 
+  <srai>JA</srai> 
+</template>
+</category>
+
+<category>
+<pattern>SCHLECHT *</pattern>
+<template>
+  <srai>NEIN</srai> 
+</template>
+</category>
+
+<category>
+<pattern>* SCHLECHT</pattern>
+<template>
+  <srai>NEIN</srai> 
 </template>
 </category>
 
 
 <category>
+<pattern>SCHLECHT</pattern>
+<template>
+  <srai>NEIN</srai> 
+</template>
+</category>
+
+<category>
+<pattern>* SCHLECHT *</pattern>
+<template>
+  <srai>NEIN</srai> 
+</template>
+</category>
+
+<category>
+<pattern>SCHRECKLICH *</pattern>
+<template>
+  <srai>NEIN</srai> 
+</template>
+</category>
+
+<category>
+<pattern>* SCHRECKLICH</pattern>
+<template>
+  <srai>NEIN</srai> 
+</template>
+</category>
+
+<category>
+<pattern>DOOF</pattern>
+<template>
+  <srai>NEIN</srai> 
+</template>
+</category>
+
+<category>
+<pattern>NAJA</pattern>
+<template>
+  <srai>NEIN</srai> 
+</template>
+</category>
+
+
+<category>
+<pattern>* DOOF</pattern>
+<template>
+  <srai>NEIN</srai> 
+</template>
+</category>
+
+
+<category>
+<pattern>* DOOF *</pattern>
+<template>
+  <srai>NEIN</srai> 
+</template>
+</category>
+
+
+<category>
+<pattern>* NICHTS *</pattern>
+<template>
+  <srai>NEIN</srai> 
+</template>
+</category>
+
+
+<category>
+<pattern>NICHTS *</pattern>
+<template>
+  <srai>NEIN</srai> 
+</template>
+</category>
+
+
+<category>
+<pattern>NICHTS</pattern>
+<template>
+  <srai>NEIN</srai> 
+</template>
+</category>
+
+
+<category>
+<pattern>KOMISCH</pattern>
+<template>
+  <srai>NEIN</srai> 
+</template>
+</category>
+
+
+<category>
+<pattern>BLÖD</pattern>
+<template>
+  <srai>NEIN</srai> 
+</template>
+</category>
+
+
+<category>
+<pattern>SCHRECKLICH</pattern>
+<template>
+  <srai>NEIN</srai> 
+</template>
+</category>
+
+<category>
+<pattern>* SCHRECKLICH *</pattern>
+<template>
+  <srai>NEIN</srai> 
+</template>
+</category>
+
+<category>
 <pattern>* ANDERES* </pattern>
 <template>
-  <srai>NEGATIV</srai> 
+  <srai>NEIN</srai> 
 </template>
 </category>
 
 <category>
 <pattern>* BITTE * </pattern>
 <template>
-  <srai>NEGATIV</srai> 
+  <srai>NEIN</srai> 
 </template>
 </category>
 
 <category>
 <pattern>BITTE *</pattern>
 <template>
-  <srai>NEGATIV</srai> 
+  <srai>NEIN</srai> 
 </template>
 </category>
 
 <category>
 <pattern>WARUM *</pattern>
 <template>
-  <srai>NEGATIV</srai> 
+  <srai>NEIN</srai> 
 </template>
 </category>
 
 <category>
 <pattern>* NICHT</pattern>
 <template>
-  <srai>NEGATIV</srai> 
+  <srai>NEIN</srai> 
 </template>
 </category>
 
 <category>
 <pattern>* NICHT * </pattern>
 <template>
-  <srai>NEGATIV</srai> 
+  <srai>NEIN</srai> 
 </template>
 </category>
 
 <category>
 <pattern>NICHT * </pattern>
 <template>
-  <srai>NEGATIV</srai> 
+  <srai>NEIN</srai> 
 </template>
 </category>
 
 <category>
 <pattern>* NIEMALS *</pattern>
 <template>
-  <srai>NEGATIV</srai> 
+  <srai>NEIN</srai> 
 </template>
 </category>
 
 <category>
 <pattern>NIE * </pattern>
 <template>
-  <srai>NEGATIV</srai> 
+  <srai>NEIN</srai> 
 </template>
 </category>
 
 <category>
 <pattern>* NIE * </pattern>
 <template>
-  <srai>NEGATIV</srai> 
+  <srai>NEIN</srai> 
 </template>
 </category>
 
 <category>
 <pattern>* DOOF</pattern>
 <template>
-  <srai>NEGATIV</srai> 
+  <srai>NEIN</srai> 
 </template>
 </category>
 
 <category>
 <pattern>* DOOF *</pattern>
 <template>
-  <srai>NEGATIV</srai> 
+  <srai>NEIN</srai> 
 </template>
 </category>
 
 
 <category>
-<pattern>POSITIV</pattern>
+<pattern>JA</pattern>
 <template>
   Super, dass ich dir helfen konnte.
 </template>
 </category>
 
 <category>
-<pattern>NEGATIV</pattern>
+<pattern>NEIN</pattern>
 <template>
   <think><set name="ignore"><get name="result"/></set></think>
   Schade. Wie wärs mit <get name="result"/>?
@@ -1276,6 +1404,12 @@ Bist du ein ängstlicher Typ?
 		<li>Versuch's nochmal! Keine Ahnung was das heißen soll.</li>
 		<li>Nein das versteh' ich nicht.</li>
 		<li>Lass uns zurück zu dir und deinem Studium kommen.</li>
+	</random>
+	<random>
+		<li>Bitte beantworte meine Frage.</li>
+		<li>Antworte auf meine Frage.</li>
+		<li>Meine Frage, bitte antworte auf die.</li>
+		<li>Meine Frage, bitte sag was dazu.</li>
 	</random>
 </template>
 </category> 
