@@ -570,7 +570,7 @@ Bist du sehr unternehmungslustig oder eher ein Stubenhocker??
   <category>
   <pattern>*</pattern>
    <template>
-   Ich kann das leider nicht, ich bin nur ein Bot.
+   Hört sich ganz interessant an. Ich kann das leider nicht machen, ich bin nur ein Bot.
       <srai>F9</srai>
    </template>
   </category>
@@ -658,7 +658,7 @@ Würdest du dich als gesprächigen und kommunikativen Menschen bezeichnen?
 <category>
 <pattern>F10</pattern>
 <template>
-Inwieweit bist du ein höflicher Mensch?
+Inwieweit bist du auch ein höflicher Mensch?
 <think><set name="topic">F10</set></think>
 </template>
 </category> 
@@ -787,7 +787,7 @@ Wie gut kommst du mit Menschen zurecht, wenn sie anderer Meinung sind?
 <category>
 <pattern>F12</pattern>
 <template>
-Achtest du darauf immer freundlich zu sein?
+Achtest du auch darauf immer freundlich zu sein?
 <think><set name="topic">F12</set></think>
 </template>
 </category> 
@@ -1220,14 +1220,14 @@ Bist du ein ängstlicher Typ?
 </category>
 
 <category>
-<pattern>* ANDERES* </pattern>
+<pattern>* ANDERES *</pattern>
 <template>
   <srai>NEIN</srai> 
 </template>
 </category>
 
 <category>
-<pattern>* BITTE * </pattern>
+<pattern>* BITTE *</pattern>
 <template>
   <srai>NEIN</srai> 
 </template>
@@ -1255,14 +1255,14 @@ Bist du ein ängstlicher Typ?
 </category>
 
 <category>
-<pattern>* NICHT * </pattern>
+<pattern>* NICHT *</pattern>
 <template>
   <srai>NEIN</srai> 
 </template>
 </category>
 
 <category>
-<pattern>NICHT * </pattern>
+<pattern>NICHT *</pattern>
 <template>
   <srai>NEIN</srai> 
 </template>
@@ -1276,14 +1276,14 @@ Bist du ein ängstlicher Typ?
 </category>
 
 <category>
-<pattern>NIE * </pattern>
+<pattern>NIE *</pattern>
 <template>
   <srai>NEIN</srai> 
 </template>
 </category>
 
 <category>
-<pattern>* NIE * </pattern>
+<pattern>* NIE *</pattern>
 <template>
   <srai>NEIN</srai> 
 </template>
