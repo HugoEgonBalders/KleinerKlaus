@@ -225,7 +225,7 @@ Bist du ein neugieriger Mensch?
   <pattern>JA</pattern>
   <think><set name="openness">1</set></think>
   <template>
-    Du bist also kreativ
+    Schön. Du bist also kreativ.
     <srai>F3</srai>
   </template>
   </category>
@@ -233,7 +233,7 @@ Bist du ein neugieriger Mensch?
   <category>
   <pattern>NEIN</pattern>
   <template>
-    In Ordnung.
+    Ohne Fantasie ist das Leben schlecht.
     <srai>F3</srai>
   </template>
   </category>
@@ -1116,6 +1116,30 @@ Bist du ein ängstlicher Typ?
   <srai>NEIN</srai> 
 </template>
 </category>
+
+<category>
+<pattern>* AKZEPTABEL</pattern>
+<template>
+  <srai>NEIN</srai> 
+</template>
+</category>
+
+
+<category>
+<pattern>VIELLEICHT</pattern>
+<template>
+  <srai>NEIN</srai> 
+</template>
+</category>
+
+
+<category>
+<pattern>GEHT SO</pattern>
+<template>
+  <srai>NEIN</srai> 
+</template>
+</category>
+
 
 <category>
 <pattern>NAJA</pattern>
